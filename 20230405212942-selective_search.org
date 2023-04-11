@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       57cb5cf7-e303-40c8-a020-3e351289b0b9
+:END:
+#+title: selective search
+
+* Steps
+1. Segment the image (i.e., non-object-based segmentation) based on color
+   similarities, texture similarities, region size, and region filling.
+2. Merge segmented areas using a bottom-up approach.
+3. Bounding box candidates are generated to about 2K region proposals.

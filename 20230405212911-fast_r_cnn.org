@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3b18ef25-52ed-4bc0-96bc-ab03dc618fdd
+:END:
+#+title: Fast R-CNN
+
+* Steps
+1. Instead region proposals (i.e., [[id:57cb5cf7-e303-40c8-a020-3e351289b0b9][selective search]]), input image is fed to the
+   [[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][CNN]] directly to generate a convolutional feature map.
+2. From the convolutional feature map, region of proposals are identified and
+   warped into squares by using an ROI pooling layer.

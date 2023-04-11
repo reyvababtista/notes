@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       001c869f-ca5f-4fdd-8df4-dfc0282e32eb
+:END:
+#+title: temporal differencing
+
+Rely on pixelwise differences between consecutive frames and do not maintain a
+background model.
+* Advantages
+simple, fast, quick to adapt to different changes.
+* Disadvantages
+cannot detect slow moving or stopped objects without an explicit background
+model. There is a foreground aperture problem (particularly large objects with
+homogeneous interiors result in holes).
+
+Only detect borders?
+*Attention to variable types*. The sign cause problems/only partial detection.

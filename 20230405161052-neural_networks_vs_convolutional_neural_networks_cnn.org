@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       eb005f2a-58dc-4808-8ced-08c2ae52df12
+:END:
+#+title: NN vs. CNN
+
+NN:
+1. Input is 1D vector
+2. Neurons are fully connected
+3. Layers: input, output, one or two hidden layers
+
+[[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][Convolutional Neural Networks (CNN)]]:
+1. Input is 3D volume
+2. Neurons are locally connected.
+3. Higher number of hidden layers.

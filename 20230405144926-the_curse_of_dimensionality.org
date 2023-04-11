@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ffd31cdd-22c9-403c-8877-a995479ffe22
+:END:
+#+title: The Curse of Dimensionality
+
+Points in high dimensional space are very far from each other.

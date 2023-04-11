@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       aa0ce60f-d161-4739-8f51-21d91bbe9d84
+:END:
+#+title: background substraction
+
+Background with objects - background = moving objects. You need the
+/[[id:60eb2d22-0232-4e34-9891-dd38c5c5972c][background models]]/.
+* Advantages:
+provides the most complete feature data, do not suffer from
+foreground aperture problem, can detect slow moving or stopped objects.
+* Disadvantages
+sensitive to dynamic scene changes and extraneous events (i.e.,
+uncovered background by removed objects)
+* Usage:
+traffic monitoring, human action recognition, human-computer interaction, object tracking
+* Techniques:
+[[id:dace6d1a-2c82-4b33-89e2-6be136cacf7b][Non-recursive]], [[id:7c32b7e2-ffd0-4df6-9d73-622b4ff561e6][recursive]], traditional methods (e.g., [[id:22065fe2-0fcf-459c-b4e9-5b2d53b7c554][median filter]], mean &
+threshold, temporal derivative, mean & covariance)

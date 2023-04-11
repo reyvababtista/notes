@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       e6765440-9a9e-47e5-9b17-e58fec051a89
+:END:
+#+title: motion analysis
+
+Visual motion:
+1. Indicates *dynamics* in the scene (e.g., [[id:2579c49d-c674-4d61-a6b6-a929e1fc4bf2][moving objects]], behaviour, tract
+   objects and analyze trajectories)
+2. Visual motion can be annoying, yet can be estimated to improve *video
+   quality* (e.g., jitter, motion blur)
+3. It can reveal the *spatial structure* (e.g., spatial layout & 3D structure)
+
+You can infer context through motion (e.g., [[id:accd3735-1fc0-4983-87a8-d953a83247aa][motion parallax]], inferring actions
+from motion)

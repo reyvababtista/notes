@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       77a268ef-b5e0-4103-9ddc-b54a2b445699
+:END:
+#+title: point assignment clustering
+
+Maintain a set of cluster, a point belong to the nearest cluster.

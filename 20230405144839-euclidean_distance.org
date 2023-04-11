@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       7d7c626a-a8b2-4032-9eff-8ce93f1623ce
+:END:
+#+title: Euclidean distance

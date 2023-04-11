@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4885ae8e-5b48-4f43-a98e-dab60d9143a6
+:END:
+#+title: RefineNet
+
+It exploits various levels of detail at different stages of convolutions and
+fuses them to obtain a high-resolution prediction without the need to maintain
+large intermediate feature maps. Tries to solve the problems of classical CNN
+(e.g., lose fine structures along the way) and dilated convolutions (e.g.,
+computationally expensive).

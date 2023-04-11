@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       006f9dd2-2b50-4b0a-a4d5-2708bd4d4d3f
+:END:
+#+title: region growing
+
+Segmentation that starts with a set of "seed" points that grow regions by
+appending to each seed those neighboring pixels that have predefined properties
+similar to the seed (such as ranges of intensity or color).

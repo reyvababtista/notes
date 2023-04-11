@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       92aec0f8-fdba-4c4b-a6ff-3d7baddcb255
+:END:
+#+title: R-CNN
+
+* Steps
+1. Region proposals by [[id:57cb5cf7-e303-40c8-a020-3e351289b0b9][selective search]].
+2. For each proposal, rescale and fed into [[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][Convolutional Neural Networks (CNN)]] model trained on ImageNet to
+   *extract features*.
+3. Linear SVM classifiers are used to predict the presence of an object.
+
+* Drawbacks
+Redundant feature computations on a large number of overlapped proposals which
+cause an extremely slow detection speed.
+
+* Improvement
+[[id:3b18ef25-52ed-4bc0-96bc-ab03dc618fdd][Fast R-CNN]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       accd3735-1fc0-4983-87a8-d953a83247aa
+:END:
+#+title: motion parallax
+
+Used this for depth estimation.

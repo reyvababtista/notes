@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       dace6d1a-2c82-4b33-89e2-6be136cacf7b
+:END:
+#+title: non-recursive background substraction
+
+Store a buffer of previous L frames. Storage requirements are significant.

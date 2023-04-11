@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2579c49d-c674-4d61-a6b6-a929e1fc4bf2
+:END:
+#+title: moving object detection
+
+Goal: segment moving regions from the rest of the image (background) to provide
+focus of attention for later processes such as tracking, classification,
+activity/action/behavior/event analysis.
+
+Approaches:
+1. Optical flow analysis: to detect changed regions using characteristics of
+   flow (velocity) vectors of moving objects overtime, can be used in the presence
+   of camera motions, but /computationally expensive/
+2. [[id:001c869f-ca5f-4fdd-8df4-dfc0282e32eb][Temporal differencing]]: compute changes between consecutive frames, adaptive
+   to dynamic environments, but has aperture problem.
+3. [[id:aa0ce60f-d161-4739-8f51-21d91bbe9d84][Background substraction]]: uses the difference between the current frame and
+   a reference background image, provides the most complete feature data, but
+   sensitive to dynamic scence changes (e.g., lighting changes or extraneous events)

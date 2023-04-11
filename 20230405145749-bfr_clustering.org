@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       424cc07e-57c5-4bdb-ae6c-a258afbbbbcb
+:END:
+#+title: BFR clustering
+
+BFR (Bradley-Fayyad-Reina) algorithm is a variant of [[id:249fced3-0744-4e76-8b1d-b0bb372f01fa][K-means clustering]] designed
+to handle a very large (disk-resident) datasets.
+
+Three sets of poins to keep track of: discard set (DS), compressed set (CS),
+retained set (RS).
+
+[[id:2052cc4b-8b13-4965-aa62-2c773e76772d][Mahalanobis distance]]

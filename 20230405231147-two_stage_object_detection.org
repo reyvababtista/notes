@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6792b77d-c387-489c-b4b6-53ec7aa8267c
+:END:
+#+title: two-stage object detection
+
+* Step:
+1. Sparse set of candidates
+2. Classify each candidate into foreground/background classes
+
+Examples: [[id:92aec0f8-fdba-4c4b-a6ff-3d7baddcb255][R-CNN]], [[id:3b18ef25-52ed-4bc0-96bc-ab03dc618fdd][Fast R-CNN]], [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]]

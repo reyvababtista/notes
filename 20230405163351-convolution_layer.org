@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       08aeea63-87fa-45c0-85cd-03c2183d1e24
+:END:
+#+title: convolution layer
+
+Suppose we have an image of size 32x32x3 and a kernel of size 5x5x3. The
+resulting activation map will be 28x28x1, based on the formula: input-(filter-1)
+
+Total number of parameters would be: num of kernels x (WxHxD+1)
+
+Properties:
+1. Small number of parameters compared to the fully connected one.
+2. Preserve spatial structure.
+3. Translation equivariant: passing a translated image through a convolutional
+   layer is (almost) equivalent to translating the convolution output (but be
+   careful of image boundaries)

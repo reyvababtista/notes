@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       225422c0-82bf-4d94-83f9-734aa7e31f5d
+:END:
+#+title: Feature Pyramid Network (FPN)
+
+It replaces the feature extractor of detectors like [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]].
+It generates multiple feature map layers (*multi-scale feature maps*) with
+better quality information compared to regular feature pyramid for [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]].
+
+It has *two dataflows*: first *bottom-up pathway*, then *top-down pathway*.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7b90d65f-e6ac-463b-b0a3-e36d6bcff30d
+:END:
+#+title: YOLOv4
+
+* Properties
+Composed of three parts: backbone, neck, and head.
+1. *Backbone*: can be any pretrained [[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][CNN]]. Acts as the feature extraction network
+   that computes feature maps from the input image.
+2. *Neck*: connects the backbone and the head. Composed of spatial pyramid
+   pooling (SPP) module and a path aggregation network (PAN). The neck
+   concatenates the feature maps from different layers of the backbone network
+   and sends them as inputs to the head.
+3. *Head*: processes the aggregated features and predicts the bounding boxes,
+   objectness scores, and classification scores.

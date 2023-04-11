@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       55cc3eaa-1714-4e14-9296-74e692f57247
+:END:
+#+title: DeepLabV3
+
+* Properties:
+1. It combines cascaded and parallel modules of dilated convolutions.
+2. The parallel convolution modules are grouped in the ASPP. A 1 1 convolution
+   and batch normalization are added in the ASPP.
+3. All the outputs are concatenated and processed by another 1 1 convolution to
+   create the final output with logits for each pixel.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f1590edd-3d5b-4bdb-85f9-05b0164af508
+:END:
+#+title: CURE clustering
+
+Extension of [[id:249fced3-0744-4e76-8b1d-b0bb372f01fa][K-means clustering]] to clusters arbitrary shapes.

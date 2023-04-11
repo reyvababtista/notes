@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       22e09d6e-a0d8-40fe-bc61-52ef6906cef1
+:END:
+#+title: clustering
+
+Given a set of points, with a notion of distance between points, group the
+points into some number of clusters, so that:
+1. Members of the same cluster are close/similar to each other
+2. Members of different clusters are dissimilar
+See: [[https://youtu.be/u31JlAF-PYM?t=120]]
+
+Clustering is a data explaining process. Clustering is hard because [[id:ffd31cdd-22c9-403c-8877-a995479ffe22][The Curse of Dimensionality]].
+
+Clustering is also called as [[id:b154854f-7f9e-44e3-96df-4765f7825f30][unsupervised learning]]. Two clustering strategies:
+1. [[id:85ceba37-b84f-4b8a-8f29-165ae2cfd0df][hierarchical clustering]] (connectivity)
+2. [[id:77a268ef-b5e0-4103-9ddc-b54a2b445699][point assignment clustering]] (compactness)
+
+Data to cluster in [[id:7d7c626a-a8b2-4032-9eff-8ce93f1623ce][Euclidean]] space:
+1. Points are vectors of real numbers (i.e., coordinates).
+2. Summarize collection of points as their average.
+3. Distance measure: L2 norm, L1 norm.
+Data to cluster in non-Euclidean space:
+1. There is no notion of location and centroid.
+2. Summarize a collection of points differently.
+3. Distance measures: [[id:7c9d0ba9-1037-423d-bf53-38cfed27de6b][Jaccard distance]], [[id:69fd3ce1-f750-4dbc-ad6a-69b50d158cb1][Hamming distance]], [[id:cc59f617-9ebd-458e-aaab-d65f8902273c][cosine distance]]
+
+Clustering algorithms:
+1. In-memory: [[id:249fced3-0744-4e76-8b1d-b0bb372f01fa][K-means clustering]]
+2. Large-data clustering: [[id:424cc07e-57c5-4bdb-ae6c-a258afbbbbcb][BFR clustering]], [[id:f1590edd-3d5b-4bdb-85f9-05b0164af508][CURE clustering]]
+3. Others: Gaussian Mixture Models (GMM), [[id:cd8b9e88-cf1a-4e8e-93e5-8d58250f94e3][graph clustering]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       95a07265-c6f6-4100-b308-c37834d8bd27
+:END:
+#+title: RetinaNet
+
+* Properties
+1. Contribution of a new loss function called "focal loss". The loss reshapes
+   the standard cross entropy loss so that detector will put more focus on hard,
+   misclassified examples during training.
+2. Backbone: [[id:225422c0-82bf-4d94-83f9-734aa7e31f5d][Feature Pyramid Network (FPN)]] on top of ResNet
+3. Two subnetworks:
+   1. Subnet-1 for classifying anchor boxes
+   2. Subnet-2 for regressing from anchor boxes to ground-truth object boxes

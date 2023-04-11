@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       14512f4f-f96d-467c-9578-ff31ed59fe6e
+:END:
+#+title: feature fusion
+
+Feature fussion methods in [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]]: bottom-up fusion, top-down fusion, element-wise
+sum, element-wise product, and concatenation

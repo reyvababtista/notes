@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       42433faa-43ef-4b28-a63d-c3cca813ba5a
+:END:
+#+title: semantic segmentation
+
+Label each pixel in the image with a category label, doesn't differentiate
+instances.
+
+Semantic segmentation ideas:
+1. Sliding windows. Problem: very inefficient, not using shared features between
+   overlappin patches.
+2. Fully convolutional networks, without any fully connected layers.
+   Problems:
+   1. Effective receptive field size is linear in number of conv layers.
+   2. Convolution on high-res images is expensive.
+3. Fully convolutional network with downsampling (i.e., pooling, strided
+   convolution) and upsampling (e.g, unpooling: bed of nails, nearest neighbor,
+   bilinear interpolation, bicubic interpolation, max) inside the network.
+   Examples: [[id:07aec306-438d-4e21-987e-7d087d5689d0][SegNet]], [[id:a80498f5-658d-4456-b8e1-4a6768110a3f][U-net]]
+4. Dilated/Atrous convolutions. It introduces another parameter that is the
+   dilation rate. For example a 3 3 kernel with a dilation rate of 2 will have
+   the same size receptive field as a 5 5 kernel while using only 9 parameters,
+   thus enlarging the receptive field with no increase in computational cost.
+   Examples: DeepLab ([[id:c5156666-3054-44e2-888f-a07dde9ddb75][1]], [[id:80652e48-42e0-4e15-b6a6-923b3e94ca4d][2]], [[id:55cc3eaa-1714-4e14-9296-74e692f57247][3]]), [[id:1cb08120-9e80-4520-b358-3a7d20fa8808][Multi-scale Context Aggregation by Dilated Convolutions]]
+
+Problems in classical [[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][CNN]] for segmentation:
+1. Fully connected layers requires fixed sized patch.
+2. Pooling layers doesn't preserve the spatial information (i.e., the where
+   information) but are able to aggregate the context.

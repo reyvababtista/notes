@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       80652e48-42e0-4e15-b6a6-923b3e94ca4d
+:END:
+#+title: DeepLabV2
+
+[[id:c5156666-3054-44e2-888f-a07dde9ddb75][DeepLab]] and DeepLabV2 are among the most popular image segmentation models.
+DeepLabv2 has three key features:
+1. Use of dilated convolution to address the decreasing resolution in the
+   network caused by max-pooling and striding.
+2. Atrous Spatial Pyramid Pooling (ASPP), which probes an incoming convolutional
+   feature layer with filters at multiple sampling rates, thus capturing objects
+   as well as multiscale image context to robustly segment objects at multiple
+   scales.
+3. Improved localization of object boundaries by combining methods from deep
+   CNNs, such as fully convolutional VGG-16 or ResNet 101, and probabilistic
+   graphical models, specifically fully-connected CRFs.

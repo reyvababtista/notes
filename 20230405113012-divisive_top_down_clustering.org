@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       42cc0668-fed4-4f5e-b6b6-1d55c49433da
+:END:
+#+title: divisive (top down) clustering
+
+Start with one cluster and recursively split it.
+
+Visualization using dendogram.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       46bb2653-8cfc-4d07-a6aa-32c544f0848c
+:END:
+#+title: You Only Look Once (YOLO)
+
+[[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][CNN]]-based.
+
+* Steps
+1. Apply a single network to the image.
+2. Divide the image into regions and predict bounding boxes & probabilities
+   for each region simultaneously.
+
+* Drawbacks
+It suffers from a drop of the localization accuracy compared to the two-stage
+detectors (e.g., [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]])
+
+* Improvements
+YOLOv3

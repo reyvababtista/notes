@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7c32b7e2-ffd0-4df6-9d73-622b4ff561e6
+:END:
+#+title: recursive background substraction
+
+Do not maintain a buffer. Any error in the background affect the model for a
+longer period of time (blending).

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9d4dd8b0-c6d9-41ae-8a8b-44c783ae824b
+:END:
+#+title: agglomerative (bottom up) clustering
+
+Each point is a cluster initially. Combine the two nearest cluster into one.
+Stop when defined.
+
+Visualization using dendogram.

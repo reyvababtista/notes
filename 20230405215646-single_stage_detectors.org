@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       07ce0c04-c82f-4497-ae52-ee391ee50cae
+:END:
+#+title: Single-stage Detectors
+
+Regular dense sampling of objects/scales/aspect ratios
+Examples: [[id:46bb2653-8cfc-4d07-a6aa-32c544f0848c][You Only Look Once (YOLO)]], [[id:1fa2d814-ba99-4df9-b7a3-7be58b196637][SSD]], [[id:95a07265-c6f6-4100-b308-c37834d8bd27][RetinaNet]]

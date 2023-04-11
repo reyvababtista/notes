@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       2052cc4b-8b13-4965-aa62-2c773e76772d
+:END:
+#+title: Mahalanobis distance

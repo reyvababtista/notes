@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e840c4b3-e08a-40f9-85bd-b31e56e30473
+:END:
+#+title: Faster R-CNN
+
+Faster R-CNN's main contribution is the [[id:42d65d78-f5b1-4435-99e7-506e966c930e][Region Proposal Network (RPN)]] that
+enables nearly cost-free region proposals.
+
+* Steps:
+1. Similar to [[id:3b18ef25-52ed-4bc0-96bc-ab03dc618fdd][Fast R-CNN]], image is fed to the [[id:751fb3ec-c511-471f-9d65-ba020a8f1f9d][CNN]] directly, generating a
+   convolutional feature map.
+2. From the feature map, use a dedicated [[id:42d65d78-f5b1-4435-99e7-506e966c930e][Region Proposal Network]] to predict the
+   region proposals, removing the traditional [[id:57cb5cf7-e303-40c8-a020-3e351289b0b9][selective search]].

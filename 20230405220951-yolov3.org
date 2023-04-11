@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       354ae63d-facd-47db-850d-976b3b3bb108
+:END:
+#+title: YOLOv3
+
+* Properties
+1. Uses darknet-53 deep architecture (fully convolutional layers)
+2. Makes detections at three different scales
+3. Use 9 anchor boxes, three for each scale.
+4. The upsampled layers concatenate with the previous layers, help preserve the
+   fine grained features.
+
+Properties 2 & 4 help address the issue of detecting small objects found in [[id:46bb2653-8cfc-4d07-a6aa-32c544f0848c][You
+Only Look Once (YOLO)]] detector.
+
+* Improvements
+[[id:7b90d65f-e6ac-463b-b0a3-e36d6bcff30d][YOLOv4]]

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       1a7493a2-15a7-460c-8c05-14c9c291e5db
+:END:
+#+title: segmentation
+
+To partition an image into meaningful regions with respect to a particular
+application -- from images to objects. What defines an object? Gestalt Laws seek
+to formalize this: proximity, similarity, continuation, closure, common fate.
+
+Semantic algorithms are generally based on one of two basic properties:
+1. similarity (region based). Principal approaches: thresholding (i.e., global
+   thresholding, adaptive thresholding), [[id:006f9dd2-2b50-4b0a-a4d5-2708bd4d4d3f][region growing]], region
+   splitting/merging (e.g., quadtree).
+2. discontinuity (edge/abrupt changes based). Principal areas of interest: isolated
+   points, lines, edges.
+
+Segmentation as clustering
+1. Pixels -> color, position, texture, etc. -> feature vector
+2. Find clusters (modes) in the distribution using [[id:249fced3-0744-4e76-8b1d-b0bb372f01fa][K-means]], Mixture of
+   Gaussians, Meanshift
+
+Segmentation using graph partitioning
+See [[id:cd8b9e88-cf1a-4e8e-93e5-8d58250f94e3][graph clustering]], [[id:33c63298-a090-4f1a-a0e0-2ba049610c06][graph cut]]
+
+See: [[id:42433faa-43ef-4b28-a63d-c3cca813ba5a][semantic segmentation]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cd8b9e88-cf1a-4e8e-93e5-8d58250f94e3
+:END:
+#+title: graph clustering
+
+In computer vision, every pixel is a node and every edge is weighted by the
+/affinity/ or similarity of the two nodes. We can generate several graphs:
+1. fully connected (computationaly expensive)
+2. neighboring pixels (fast, but only captures very local interactions)
+3. local neighborhood (reasonably fast, graph is still very sparse, good tradeoff)
+Then, we can convert the distance between two feature vectors into an affinity
+(similarity) with the help of a generalized Gaussian kernel

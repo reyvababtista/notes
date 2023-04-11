@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       667882a1-fc54-4f84-8eac-f1f009da5aba
+:END:
+#+title: object detection
+
+Two types:
+1. two-stage object detection (e.g., R-CNN, Fast R-CNN, Faster R-CNN):
+   coarse-to-fine process
+2. [[id:07ce0c04-c82f-4497-ae52-ee391ee50cae][one-stage object detection]] (e.g., SSD, YOLO, RetinaNet): complete in one step
+
+Challenges: small objects, hard negatives, dense objects, occlusion,
+illumination changes, motion blur, intra-class variation, multi-scale objects

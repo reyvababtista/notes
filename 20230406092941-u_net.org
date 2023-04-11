@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a80498f5-658d-4456-b8e1-4a6768110a3f
+:END:
+#+title: U-net
+
+Instead of reusing pooling indices like in [[id:07aec306-438d-4e21-987e-7d087d5689d0][SegNet]], it uses the entire feature
+maps to transfer from encoder to decoder, using concatenation operation to
+perform the convolution.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       07aec306-438d-4e21-987e-7d087d5689d0
+:END:
+#+title: SegNet
+
+It has encoder and a corresponding decoder network. Stores the corresponding max
+pooling indices (i.e., locations) while encoding, recalled the indices during
+upsampling in the decoder.

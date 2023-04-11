@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       60eb2d22-0232-4e34-9891-dd38c5c5972c
+:END:
+#+title: background modeling
+
+Involves:
+1. Bootstrapping: taking a video sequence and outputs a background model
+   describing static parts of the scene.
+2. Representation
+3. Maintenance/update: background changes over time.

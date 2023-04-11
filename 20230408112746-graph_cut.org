@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       33c63298-a090-4f1a-a0e0-2ba049610c06
+:END:
+#+title: graph cut
+
+Set of edges whose removal makes a graph disconnected. Cost of a cut is the *sum
+of weights of cut edges*. How do we find a "good" graph cut?
+1. minimum cut; drawbacks: weight of cut proportional to number of edges and it
+   is biased towards cutting small, isolated components.
+2. normalized cut;

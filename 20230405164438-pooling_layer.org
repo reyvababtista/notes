@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d21f5b93-5ce4-4c8d-8485-067660625255
+:END:
+#+title: pooling layer
+
+e.g. max pooling

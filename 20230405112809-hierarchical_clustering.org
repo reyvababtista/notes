@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       85ceba37-b84f-4b8a-8f29-165ae2cfd0df
+:END:
+#+title: hierarchical clustering
+
+Two types:
+1. [[id:9d4dd8b0-c6d9-41ae-8a8b-44c783ae824b][agglomerative (bottom up) clustering]]
+2. [[id:42cc0668-fed4-4f5e-b6b6-1d55c49433da][divisive (top down) clustering]]
+
+Three questions to answer:
+1. How to represent a cluster of many points?
+   1. Euclidean case: centroid
+   2. Non-Euclidean case: clustroid (point closes to other points)
+2. How to determine the nearness of the clusters?
+   1. Euclidean case: measure distances by distances of centroids
+   2. Non-euclidean case: treat clustroid as centroid, various distance measures
+      between points of two clusters, various cohesion measures of the union of
+      two clusters.

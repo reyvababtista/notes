@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       22065fe2-0fcf-459c-b4e9-5b2d53b7c554
+:END:
+#+title: median filter background substraction
+
+Background model at each pixel is modeled as the median of the pixel's recent history.
+* Properties:
+- non-recursive and uni-modal
+- fast but memory consuming

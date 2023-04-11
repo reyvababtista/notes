@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1fa2d814-ba99-4df9-b7a3-7be58b196637
+:END:
+#+title: Single Shot MultiBox Detector (SSD)
+
+* Properties
+1. Single-shot detector for multiple categories that is faster than [[id:46bb2653-8cfc-4d07-a6aa-32c544f0848c][You Only Look
+Once (YOLO)]] and as accurate as [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]].
+2. First deep network based object detector that does not resample pixels or features
+for bounding box hypotheses and is as accurate as approaches that do.
