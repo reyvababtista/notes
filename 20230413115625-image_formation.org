@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0f5d0f75-e758-4447-88cb-d86da4310c24
+:END:
+#+title: image formation
+
+Pinhole camera (aperture/barrier) to block most of the rays.
+Perspective projection.

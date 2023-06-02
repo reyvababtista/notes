@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ea435d27-af97-47a5-9974-0df8c517ca01
+:END:
+#+title: optical flow
+
+You can use optical flow to segment images without the need of dataset as in
+deep learning. Depths are the key to the segmentation layers.
+
+Cannot use regular CNN because of multiple images & segmentation.
+
+Ground truth for optical flow:
+1. Silver ground truth using classical methods
+2. Using syntethic data (see: Flying Chairs)

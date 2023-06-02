@@ -12,10 +12,10 @@ CNN can be used for:
 6. caption to image
 7. image generation
 
-CNN consists of:
+CNN consists of feature extraction layers & classification layers:
 1. [[id:08aeea63-87fa-45c0-85cd-03c2183d1e24][convolution layers]]: set of learnable filters/kernels, kernel has the same depth
    as the input's depth
 2. [[id:d21f5b93-5ce4-4c8d-8485-067660625255][pooling layers]]: progressively reduce the spatial size of the representation
-3. fully connected layer
+3. fully connected layer for classification
 
 Some CNN architectures: LeNet-5, AlexNet, VGG-16, GoogleLeNet, ResNet

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5dc8c86e-d913-47e1-868e-6ba4bdc25efa
+:END:
+#+title: singular value decomposition (SVD)
+
+One matrix approximately represented by three smaller matrix that shared small
+common dimension ~r~.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       283c7483-6880-4c25-85ae-58f5fbb45733
+:END:
+#+title: locality sensitive hashing
+
+Is a familiy of related techniques.
+Hash similar items to the same bucket.
+
+3 Essensial Steps for Similar Docs:
+1. shingling converts a document into a set representation (boolean vector)
+2. min-hashing: convert large sets to short signature, while preserving similarity
+3. locality-sensitive hashing: focus on pairs

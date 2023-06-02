@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8e27136e-2e02-4e61-bc0b-8a415b837911
+:END:
+#+title: cv-research
+
+- traffic sign multiple images?
+- any difference between yolov5s and v5s-a2?
