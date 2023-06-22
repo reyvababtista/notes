@@ -17,10 +17,32 @@ complexity, fluency).
 
 Although they found that GPT-4 perfomances are comparable to human data
 analysts, GPT-4 still suffer from hallucination or poor calculation accuracy.
-Furthermore, there is still a need of human intervention to prepare and describe
-the data and execute the code in between the experiment.
+Furthermore, there is still a need of human intervention to:
+1. ask the right questions to be answered by ChatGPTprepare and describe
+2. prepare the data and execute the code in between the experiment.
 
-*  Hassan, M. M., Knipper, A., & Santu, S. K. K. (2023). ChatGPT as your Personal Data Scientist.
+* Hassan, M. M., Knipper, A., & Santu, S. K. K. (2023). ChatGPT as your Personal Data Scientist.
 The paper proposed a new architecture utilizing ChatGPT for user-friendly
 automated machine learning (AutoML). Although it is an interesting idea, the
-paper did not present implementation details or provide code to their proposed system.
+paper did not present implementation details or provide code to their proposed
+system.
+
+* Noever, D., & McKee, F. (2023). Numeracy from Literacy: Data Science as an Emergent Skill from Large Language Models. , (), .
+The paper explore the possibility of ChatGPT as a tool for exploratory data
+analysis. The experiments executed CRUD operations to well known datasets such
+as Iris, Titanic survival, and Boston housing prices. The random sampling and
+CRUD operations to the dataset made sure that ChatGPT will not rely on training
+data but only their own numerical calculations.
+
+Their finding were that the latest LLMs have reached sufficient scale to handle
+complex statistical questions.
+
+Questions emerge from reading this paper:
+1. How can we provide datasets as the "input data" to provide additional context
+   for ChatGPT?
+2. Can ChatGPT's memory capacity be increased? Would that help ChatGPT to
+   generate better answers? https://redis.com/blog/chatgpt-memory-project/
+
+
+
+* Hassani, H., & Silva, E. S. (2023). The Role of ChatGPT in Data Science: How AI-Assisted Conversational Interfaces Are Revolutionizing the Field. Big Data and Cognitive Computing, 7(2), 62. http://dx.doi.org/10.3390/bdcc7020062
