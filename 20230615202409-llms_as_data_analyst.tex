@@ -1,0 +1,49 @@
+% Created 2023-06-21 Wed 16:42
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\author{Reyva Babtista}
+\date{\today}
+\title{LLMs as data analyst}
+\hypersetup{
+ pdfauthor={Reyva Babtista},
+ pdftitle={LLMs as data analyst},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.6.1)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Cheng, L., Li, X., \& Bing, L. (2023). Is GPT-4 a Good Data Analyst? \cite{chengGPT4GoodData2023}}
+\label{sec:org7dcba34}
+This papaer talked about comparing GPT-4's
+performance of data analysis to actual data analyst. Their GPT-4 as data
+analyst's experiment framework:
+\begin{enumerate}
+\item code generation (for data collection and data visualization)
+\item code execution
+\item analysis generation (for data analysis)
+\end{enumerate}
+They used nvBench dataset to evaluate their experiments. Their evaluation
+metrics include figure evaluation (information correctness, chart type
+correctness, aesthetics) and analysis evaluation (correctness, alignment,
+complexity, fluency).
+
+Although they found that GPT-4 perfomances are comparable to human data
+analysts, GPT-4 still suffer from hallucination or poor calculation accuracy.
+\end{document}

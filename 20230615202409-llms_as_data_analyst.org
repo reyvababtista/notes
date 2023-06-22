@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       1e94037d-4128-43e2-9b38-720fceef7ae0
+:END:
+#+title: LLMs as data analyst
+
+* Cheng, L., Li, X., & Bing, L. (2023). Is GPT-4 a Good Data Analyst? [[cite:&chengGPT4GoodData2023]]
+This papar talked about comparing GPT-4's
+performance of data analysis to actual data analyst. Their GPT-4 as data
+analyst's experiment framework:
+1. code generation (for data collection and data visualization)
+2. code execution
+3. analysis generation (for data analysis)
+They used nvBench dataset to evaluate their experiments. Their evaluation
+metrics include figure evaluation (information correctness, chart type
+correctness, aesthetics) and analysis evaluation (correctness, alignment,
+complexity, fluency).
+
+Although they found that GPT-4 perfomances are comparable to human data
+analysts, GPT-4 still suffer from hallucination or poor calculation accuracy.
+Furthermore, there is still a need of human intervention to prepare and describe
+the data and execute the code in between the experiment.
+
+*  Hassan, M. M., Knipper, A., & Santu, S. K. K. (2023). ChatGPT as your Personal Data Scientist.
+The paper proposed a new architecture utilizing ChatGPT for user-friendly
+automated machine learning (AutoML). Although it is an interesting idea, the
+paper did not present implementation details or provide code to their proposed system.
