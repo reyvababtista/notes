@@ -16,7 +16,7 @@ metrics include figure evaluation (information correctness, chart type
 correctness, aesthetics) and analysis evaluation (correctness, alignment,
 complexity, fluency).
 
-Although they found that GPT-4 perfomances are comparable to human data
+Although they found that GPT-4 perfomances are comparable to human data:wq::
 analysts, GPT-4 still suffer from hallucination or poor calculation accuracy.
 Furthermore, there is still a need of human intervention to:
 1. Ask the right questions to be answered by ChatGPT.
@@ -54,8 +54,10 @@ examples of them. Not necessarily relevant to the topic of utilizing ChatGPT for
 data science. However, this paper can be cited for our paper's introduction.
 
 * Karpathy, A. (2023). State of GPT. https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2
+Karpathy explained how ChatGPT was founded/trained and its stages of growth.
 
 * Schick, T., Dwivedi-Yu, Jane, Dess\`i, Roberto, Raileanu, R., Lomeli, M., Zettlemoyer, L., Cancedda, N., … (2023). Toolformer: Language Models Can Teach Themselves to Use Tools.
+-
 
 * Gao, J., Guo, Y., Lim, G., Zhang, T., Zhang, Z., Li, T. J., & Perrault, S. T.  (2023). CollabCoder: A GPT-Powered Workflow for Collaborative Qualitative Analysis.
 
