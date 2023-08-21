@@ -46,9 +46,27 @@ Questions emerge from reading this paper:
    generate better answers? https://redis.com/blog/chatgpt-memory-project/
 
 * Hassani, H., & Silva, E. S. (2023). The Role of ChatGPT in Data Science: How AI-Assisted Conversational Interfaces Are Revolutionizing the Field. Big Data and Cognitive Computing, 7(2), 62. http://dx.doi.org/10.3390/bdcc7020062
-Reading in progress.
+A review of ChatGPT in data science. No new methods introduced.
 
 * Chatterjee, J., & Dethlefs, N. (2023). This new conversational AI model can be your friend, philosopher, and guide .. and even your worst enemy. Patterns, 4(1), 100676. http://dx.doi.org/10.1016/j.patter.2022.100676
 This short paper reviews the potential and danger of ChatGPT and show some
 examples of them. Not necessarily relevant to the topic of utilizing ChatGPT for
 data science. However, this paper can be cited for our paper's introduction.
+
+* Karpathy, A. (2023). State of GPT. https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2
+
+* Schick, T., Dwivedi-Yu, Jane, Dess\`i, Roberto, Raileanu, R., Lomeli, M., Zettlemoyer, L., Cancedda, N., … (2023). Toolformer: Language Models Can Teach Themselves to Use Tools.
+
+* Gao, J., Guo, Y., Lim, G., Zhang, T., Zhang, Z., Li, T. J., & Perrault, S. T.  (2023). CollabCoder: A GPT-Powered Workflow for Collaborative Qualitative Analysis.
+
+* Xiao, Z., Yuan, X., Liao, Q. V., Abdelghani, R., & Oudeyer, P. (2023).  Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding. In , 28th {{International Conference}} on {{Intelligent User Interfaces} (pp. 75–78). : .
+
+* Ahmed, T., & Devanbu, P. (2022). Few-shot training LLMs for project-specific code-summarization. In , Proceedings of the 37th {{IEEE}}/{{ACM International Conference}} on {{Automated Software Engineering} (pp. 1–5). Rochester MI USA: ACM.
+
+* Macdonald, C., Adeloye, D., Sheikh, A., & Rudan, I. (2023). Can ChatGPT draft a research article? An example of population-level vaccine effectiveness analysis. Journal of Global Health, 13(), 01003. http://dx.doi.org/10.7189/jogh.13.01003
+The authors experimented using ChatGPT to draft a research paper. Similarly to
+what we are trying to achieve, the authors used ChatGPT to generate R code to do
+basic analysis by first describing the simulated dataset to ChatGPT.
+Furthermore, using the data analysis's results, the authors utilized ChatGPT to
+draft the paper's abstract, introduction, as well as literature review. ChatGPT
+seemed to halucinate the literature references.
