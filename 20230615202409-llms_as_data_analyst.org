@@ -67,6 +67,9 @@ call API of provided tools such as QA, Calendar, Calculator, etc.
 * Ahmed, T., & Devanbu, P. (2022). Few-shot training LLMs for project-specific code-summarization. In , Proceedings of the 37th {{IEEE}}/{{ACM International Conference}} on {{Automated Software Engineering} (pp. 1–5). Rochester MI USA: ACM.
 
 * Macdonald, C., Adeloye, D., Sheikh, A., & Rudan, I. (2023). Can ChatGPT draft a research article? An example of population-level vaccine effectiveness analysis. Journal of Global Health, 13(), 01003. http://dx.doi.org/10.7189/jogh.13.01003
+:PROPERTIES:
+:NOTER_DOCUMENT: /Users/reyvababtista/Projects/org/notes/20230615202409-llms_as_data_analyst.pdf
+:END:
 The authors experimented using ChatGPT to draft a research paper. Similarly to
 what we are trying to achieve, the authors used ChatGPT to generate R code to do
 basic analysis by first describing the simulated dataset to ChatGPT.

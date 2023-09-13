@@ -1,0 +1,3 @@
+#+TITLE: Notes on: Chen, T., Saxena, S., Li, L., Fleet, D. J., & Hinton, G. (2022): Pix2seq: A Language Modeling Framework for Object Detection
+
+foobar

@@ -4,14 +4,26 @@
 :END:
 #+title: pix2seq
 
-Pix2seq is a task-agnostic (generic) framework for [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]]. It cast
+Pix2Seq is a task-agnostic (generic) framework for [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]]. It cast
 object detection as a language modeling task, conditioned on the observed pixel
-input. Pix2seq proposed a general intelligence system, in contrast to most
+input. Pix2Seq proposed a general intelligence system, in contrast to most
 existing methods that are specialized and difficult to integrate to larger
 system. The model provides a language interface by producing a sequence of
 discrete tokens that correspond to object descriptions. The objective function
-defined in the model is simple the maximum likelihood of tokens given the pixel
+defined in the model is simply the maximum likelihood of tokens given the pixel
 inputs and the preceding tokens. The model can be configured to task-specific
 prior knowledge with a sequence augmentation technique. Based on the reported
-experiments, Pix2seq has a comparable result to SOTA object detection models
+experiments, Pix2Seq has a comparable result to SOTA object detection models
 such as [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]].
+
+Pix2Seq framework consists of four main components:
+1. Image augmentation.
+2. Sequence construction and augmentation.
+3. Architecture (encoder-decoder model).
+4. Objective/loss function (softmax cross-entropy loss).
+
+Pix2Seq express sets of bounding boxes and class labels of objects exist in
+images as sequences of discrete tokens. Bounding box (top-left bottom-right or
+center and height/width)'s continous numbers of \(x\), \(y\) are discretize using
+image bins. Thus, an object is represented by five discrete tokens, i.e.
+\([y_{min}, x_{min}, y_{max}, x_{max}]\), with the \(c\) as the class index.
