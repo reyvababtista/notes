@@ -17,20 +17,22 @@ experiments, Pix2Seq has a comparable result to SOTA object detection models
 such as [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]].
 
 Pix2Seq framework was built upon four main components:
-1. Image augmentation.
-2. Sequence construction and augmentation.
-3. Architecture (encoder-decoder model).
-4. Objective/loss function (softmax cross-entropy loss).
+1. Image augmentation for training.
+2. Sequence construction and augmentation for object description or annotations.
+3. An encoder-decoder model architecture.
+4. Objective (loss) function is to maximize the log likelihood of tokens
+   conditioned on preceding tokens and the input image (with softwmax
+   cross-entropy loss).
 
 Pix2Seq express sets of bounding boxes and class labels of objects exist in
-images as sequences of discrete tokens. Bounding box (top-left bottom-right or
+images as sequences of discrete tokens. Object's bounding box (top-left bottom-right or
 center and height/width)'s continous numbers of \(x\), \(y\) are discretize using
 image bins. Thus, an object is represented by five discrete tokens, i.e.
 \([y_{min}, x_{min}, y_{max}, x_{max}]\), with the \(c\) as the class index. EOS
 token was used to incorporate the end of sequence.
 
 The encoder used in Pix2Seq can be a ConvNet, Transformer, or their combination,
-while the decoder used is a Transformer. The decoder generates one token at a
+while the decoder used is a Transformer based. The decoder generates one token at a
 time, conditioned on the preceding tokens and the encoded image representation.
 
 The maximum likelihood loss was used for Pix2Seq objective function, that is defined as
@@ -41,17 +43,20 @@ maximize \sum_{j=1}^{L} \mathbf{w}_j log P(\mathbf{\tilde{y}}_j | \mathbf{x}, \m
 
 (formula details are on the paper).
 
-At inference time, Pix2Seq sample tokens from model likelihood using \(arg max\)
-sampling or other stochastic techniques.
+At inference time, Pix2Seq sample tokens from model likelihood from a join
+vocabulary for the bins and classes using \(arg\ max\) sampling or other
+stochastic techniques. However, based on the experiments presented, nucleus
+sampling leads to a higher recall than \(arg\ max\) sampling.
 
-However, there is a downside to the task-agnostic model of Pix2Seq, that is the
-model tends to predict EOS token too soon, thus missing some objects left
-undetected. This problem is most likely because of the annotation noise and
-uncertainty in recognizing and localizing an object. Delaying the EOS token
-sampling by decreasing its likelihood resulting in a higher recall score with
-the trade off of noisy and duplicated predictions.
+There is a downside to the task-agnostic model of Pix2Seq, that is the model
+tends to predict EOS token too soon, thus missing some objects left undetected.
+This problem is most likely because of the annotation noise and uncertainty in
+recognizing and localizing an object. Although this problem only affects the
+precision score by 1-2%, delaying the EOS token sampling by decreasing its
+likelihood resulting in a higher recall score with the trade off of noisy and
+duplicated predictions (precision is decreased more).
 
-The problem of precision and recall trade-off can be solved by letting the model
+This problem of precision and recall trade-off can be solved by letting the model
 learn of a prior knowledge of the task using sequence augmentation with
 synthetic noise objects. Sequence augmentation improved the recall and delaying
 the EOS token prediction without increasing the frequency of noisy and
@@ -59,5 +64,5 @@ duplicated predictions.
 
 Although Pix2Seq has a competitive results as compared to other object detection
 models, there are limitations identified. First, autoregressive modeling is
-expensive for long sequences. Second, input data used for training are dependent
-on human annotation.
+expensive for long sequences. Second, input data used for training presented in
+the paper are fully dependent on human annotation.
