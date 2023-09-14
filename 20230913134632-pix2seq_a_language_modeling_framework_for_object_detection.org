@@ -16,7 +16,7 @@ prior knowledge with a sequence augmentation technique. Based on the reported
 experiments, Pix2Seq has a comparable result to SOTA object detection models
 such as [[id:e840c4b3-e08a-40f9-85bd-b31e56e30473][Faster R-CNN]].
 
-Pix2Seq framework consists of four main components:
+Pix2Seq framework was built upon four main components:
 1. Image augmentation.
 2. Sequence construction and augmentation.
 3. Architecture (encoder-decoder model).
@@ -39,17 +39,25 @@ The maximum likelihood loss was used for Pix2Seq objective function, that is def
 maximize \sum_{j=1}^{L} \mathbf{w}_j log P(\mathbf{\tilde{y}}_j | \mathbf{x}, \mathbf{y}_{1:j-1})
 \]
 
+(formula details are on the paper).
+
 At inference time, Pix2Seq sample tokens from model likelihood using \(arg max\)
 sampling or other stochastic techniques.
 
 However, there is a downside to the task-agnostic model of Pix2Seq, that is the
 model tends to predict EOS token too soon, thus missing some objects left
 undetected. This problem is most likely because of the annotation noise and
-uncertainty in recognizing and localizing an object. By delay the EOS token sampling
-by decreasing its likelihood, the model produces a higher recall score with the
-trade off of noisy and duplicated predictions.
+uncertainty in recognizing and localizing an object. Delaying the EOS token
+sampling by decreasing its likelihood resulting in a higher recall score with
+the trade off of noisy and duplicated predictions.
 
-The problem of precision and recall described above is solved by letting the
-model learn of a prior knowledge of the task using sequence augmentation with
-synthetic noise objects. Sequence augmentation improved the recall and delaying the
-EOS token prediction without increasing the frequency of noisy and duplicated predictions.
+The problem of precision and recall trade-off can be solved by letting the model
+learn of a prior knowledge of the task using sequence augmentation with
+synthetic noise objects. Sequence augmentation improved the recall and delaying
+the EOS token prediction without increasing the frequency of noisy and
+duplicated predictions.
+
+Although Pix2Seq has a competitive results as compared to other object detection
+models, there are limitations identified. First, autoregressive modeling is
+expensive for long sequences. Second, input data used for training are dependent
+on human annotation.

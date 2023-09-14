@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       04803356-e5d9-44b0-b864-98affd2251a3
+:ROAM_REFS: cite:jaeglePerceiverIOGeneral2022
+:END:
+#+title: Perceiver IO: A General Architecture for Structured Inputs \& Outputs
