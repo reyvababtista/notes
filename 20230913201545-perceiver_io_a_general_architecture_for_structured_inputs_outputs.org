@@ -3,3 +3,26 @@
 :ROAM_REFS: cite:jaeglePerceiverIOGeneral2022
 :END:
 #+title: Perceiver IO: A General Architecture for Structured Inputs \& Outputs
+
+Perceiver IO is another task-agnostic architecture based on the Perceiver
+architecture. While Perceiver can process arbitrary input and produces simple
+output spaces like classification, Perceiver IO aims to produce not only
+arbitrary input but also arbitrary output.
+
+Perceiver IO is a fully attentional read-process-write architecture, that is
+inputs are encoded (read) into a latent space, the latent representation is
+refined (process), and finally decoded (write) to produce outputs. The approach
+inherits the best features of Transformers (leveraging domain agnostic
+primitives) and encoder-decoder architectures.
+
+Perceiver IO predict each element of the output array using an attention module
+by querying the latent array using a query feature vector unique to the domain task
+(i.e., desired output element). Although Perceiver IO architecture builds on
+primitives similar to those in Transformers, it has no quadratic dependence on
+the input or output size, in fact, only linearly. Perceiver IO can handle
+domains with hundreds of thousands of dimensions while Transformers only few
+thousand of dimensions at most.
+
+The latent space in Perceiver IO does not explicitly share the structure of the
+inputs. Thus, to decode the information from the latent space for producing
+outputs, Perceiver IO is using cross-attention.
