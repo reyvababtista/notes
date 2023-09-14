@@ -1,8 +1,8 @@
 :PROPERTIES:
-:ID:       76ad038a-1550-4e32-b7df-e5fe3edb20a3
+:ID:       20c4c0e6-8ed0-49b5-8c3f-9bee597a85b5
 :ROAM_REFS: cite:chenPix2seqLanguageModeling2022
 :END:
-#+title: pix2seq
+#+title: Pix2seq: A Language Modeling Framework for Object Detection
 
 Pix2Seq is a task-agnostic (generic) framework for [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]]. It cast
 object detection as a language modeling task, conditioned on the observed pixel
@@ -26,4 +26,29 @@ Pix2Seq express sets of bounding boxes and class labels of objects exist in
 images as sequences of discrete tokens. Bounding box (top-left bottom-right or
 center and height/width)'s continous numbers of \(x\), \(y\) are discretize using
 image bins. Thus, an object is represented by five discrete tokens, i.e.
-\([y_{min}, x_{min}, y_{max}, x_{max}]\), with the \(c\) as the class index.
+\([y_{min}, x_{min}, y_{max}, x_{max}]\), with the \(c\) as the class index. EOS
+token was used to incorporate the end of sequence.
+
+The encoder used in Pix2Seq can be a ConvNet, Transformer, or their combination,
+while the decoder used is a Transformer. The decoder generates one token at a
+time, conditioned on the preceding tokens and the encoded image representation.
+
+The maximum likelihood loss was used for Pix2Seq objective function which defined as
+
+\[
+maximize \sum_{j=1}^{L} \mathbf{w}_j log P(\mathbf{\tilde{y}}_j | \mathbf{x}, \mathbf{y}_{1:j-1})
+\]
+
+At inference time, Pix2Seq sample tokens from model likelihood using \(arg max\)
+sampling or other stochastic techniques.
+
+However, there is a downside to the task-agnostic model of Pix2Seq, that is the
+model tends to predict EOS token too soon, thus missing some objects left
+undetected. This problem is most likely because of the annotation noise and
+uncertainty in recognizing and localizing an object. By delay the EOS token sampling
+by decreasing its likelihood, the model produces a higher recall score with the
+trade off of noisy and duplicated predictions.
+
+The problem of precision and recall described above is solved by letting the
+model learn of a prior knowledge of the task using sequence augmentation with
+synthetic noise objects.

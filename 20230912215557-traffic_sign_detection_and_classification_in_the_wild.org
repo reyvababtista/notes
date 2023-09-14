@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       04565443-d378-4f54-83ce-d9e2859ad46d
+:ROAM_REFS: cite:zhuTrafficSignDetectionClassification2016
+:END:
+#+title: Traffic-Sign Detection and Classification in the Wild
