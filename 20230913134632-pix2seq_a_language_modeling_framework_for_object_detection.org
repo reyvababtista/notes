@@ -6,7 +6,7 @@
 
 Pix2Seq is a task-agnostic (generic) framework for [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]]. It cast
 object detection as a language modeling task, conditioned on the observed pixel
-input. Pix2Seq proposed a general intelligence system, in contrast to most
+input. Pix2Seq was proposed as a general intelligence system, in contrast to most
 existing methods that are specialized and difficult to integrate to larger
 system. The model provides a language interface by producing a sequence of
 discrete tokens that correspond to object descriptions. The objective function
@@ -33,7 +33,7 @@ The encoder used in Pix2Seq can be a ConvNet, Transformer, or their combination,
 while the decoder used is a Transformer. The decoder generates one token at a
 time, conditioned on the preceding tokens and the encoded image representation.
 
-The maximum likelihood loss was used for Pix2Seq objective function which defined as
+The maximum likelihood loss was used for Pix2Seq objective function, that is defined as
 
 \[
 maximize \sum_{j=1}^{L} \mathbf{w}_j log P(\mathbf{\tilde{y}}_j | \mathbf{x}, \mathbf{y}_{1:j-1})
@@ -51,4 +51,5 @@ trade off of noisy and duplicated predictions.
 
 The problem of precision and recall described above is solved by letting the
 model learn of a prior knowledge of the task using sequence augmentation with
-synthetic noise objects.
+synthetic noise objects. Sequence augmentation improved the recall and delaying the
+EOS token prediction without increasing the frequency of noisy and duplicated predictions.
