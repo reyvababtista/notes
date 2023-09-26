@@ -4,6 +4,17 @@
 :END:
 #+title: Perceiver IO: A General Architecture for Structured Inputs \& Outputs
 
+* Addressed Domains
+Perceiver IO addressed multiple domains, that is natural language processing
+(e.g., language), computer vision (e.g., optical flow, audiovisual sequences),
+and symbolic sequences (e.g., StarCraft II).
+
+* Architectural Multimodality
+
+
+* Learning Paradigm
+
+* Key Innovations
 Perceiver IO is another task-agnostic architecture based on the Perceiver
 architecture. While Perceiver can process arbitrary input and produces simple
 output spaces like classification, Perceiver IO aims to produce not only
@@ -26,3 +37,5 @@ thousand of dimensions at most.
 The latent space in Perceiver IO does not explicitly share the structure of the
 inputs. Thus, to decode the information from the latent space for producing
 outputs, Perceiver IO is using cross-attention.
+
+* Limitations
