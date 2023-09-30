@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       d77f4032-bce2-45ea-8c27-1ae9ca2f6c27
+:ROAM_REFS: cite:chenUnifiedSequenceInterface2022
+:END:
+#+title: A Unified Sequence Interface for Vision Tasks
+
+* Addressed Domains
+This paper is a further work (e.g., Pix2Seq v2) of the Pix2Seq language modeling
+framework. Based on the idea of the unified framework of natural language
+processing domain where language models are trained to predict solutions (next
+token) from the input (prompts), the authors of the paper tried to unify
+multiple tasks of computer vision into a single general model in a hope of
+achieving artificial general intelligence. The authors believed that computer
+vision tasks, namely object detection, segmentation, keypoints detection, and
+image captioning can be unified into a single shared interface by leveraging
+tokenization approaches that is prompt and images as inputs and sequence as
+outputs.
+
+* Architectural Multimodality
+Similar to Pix2Seq, Pix2SeqV2 uses an encoder-decoder architecture. The encoder
+can be instantiated as a ConvNet, Transformer, or their combination. It
+perceives pixels from the image. The decoder is Transformer-based and generates
+output sequence, a token at a time, conditioned on the encoded image
+representation and preceding tokens. The main difference between the first and
+second version of Pix2Seq architecture is that in the second version, they
+introduced the task prompting as part of the \(y\) sequence in the training with
+adjusted weighting. The task prompting was used as the task description to let
+the model know of what kind inference that needed to be done in the output.
+
+* Learning Paradigm
+There are two algorithms for training that were introduced in the paper, that is
+data mixing and batch mixing. Both algorithms are supervised learning.
+Experiments in the paper were conducted using batch mixing algorithm for the
+training process to simplify the image augmentation problem. Image augmentation
+was assessed as non-trivial in this architecture since we need to change the
+associated sequences for each augmentation.
+
+* Key Innovations
+Pix2SeqV2uses the same propopsed architecture as its first version, including
+using the same dictionary for every task. However, Pix2SeqV2 introduces a prompt
+in the target \(y\) as a task description. The prompt tells the model on what
+kind of task it needs to infer. The prompt was necessary since the architecture
+was capable of doing multiple computer vision tasks including object detection,
+segmentation, keypoints detection, and image captioning. Pix2SeqV2 achieves
+better results in three out of four tasks, based on the COCO dataset as compared
+to other state-of-the-art computer vision models. Furthermore, the authors
+introduced new training and inference processes, that is data mixing and batch
+mixing for training and de-tokenization method for each task.
+
+* Limitations
+Similar to the first version of Pix2Seq, the proposed architecture also suffered
+from slower inference speed of longer sequences caused by autoregressive model.
+It is cited that using a non-regressive sequence modeling can potentially
+optimize this problem. However, the potential solution approach was not explored
+in the paper, instead, parallel querying was implemented for speeding up the
+model inference. Furthermore, the architectures and training techniques can be
+improved further by scaling them up, that is larger model and datasets,
+respectively.
