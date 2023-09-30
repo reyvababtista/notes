@@ -5,8 +5,8 @@
 #+title: A Unified Sequence Interface for Vision Tasks
 
 * Addressed Domains
-This paper is a further work (e.g., Pix2Seq v2) of the Pix2Seq language modeling
-framework. Based on the idea of the unified framework of natural language
+This paper is a further work (e.g., Pix2Seq v2) of the [[id:20c4c0e6-8ed0-49b5-8c3f-9bee597a85b5][Pix2Seq language modeling
+framework]]. Based on the idea of the unified framework of natural language
 processing domain where language models are trained to predict solutions (next
 token) from the input (prompts), the authors of the paper tried to unify
 multiple tasks of computer vision into a single general model in a hope of
@@ -40,8 +40,8 @@ Pix2SeqV2uses the same propopsed architecture as its first version, including
 using the same dictionary for every task. However, Pix2SeqV2 introduces a prompt
 in the target \(y\) as a task description. The prompt tells the model on what
 kind of task it needs to infer. The prompt was necessary since the architecture
-was capable of doing multiple computer vision tasks including object detection,
-segmentation, keypoints detection, and image captioning. Pix2SeqV2 achieves
+was capable of doing multiple computer vision tasks including [[id:667882a1-fc54-4f84-8eac-f1f009da5aba][object detection]],
+[[id:1a7493a2-15a7-460c-8c05-14c9c291e5db][segmentation]], keypoints detection, and image captioning. Pix2SeqV2 achieves
 better results in three out of four tasks, based on the COCO dataset as compared
 to other state-of-the-art computer vision models. Furthermore, the authors
 introduced new training and inference processes, that is data mixing and batch
