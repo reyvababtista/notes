@@ -18,14 +18,26 @@ network interpretation. The architecture consists of three modules, that is,
    GradCAM technique,
 2. image captioning module that generates \(N\) captions by stochastic top-\(k\)
    sampling, this module also leveraging the BLIP model,
-3. question answering module to answer the asked question, given a concatenated encoded
-   representations of individual caption from the image captioning module.
+3. question answering module using UnifiedQAv2 to answer the asked question
+   given a concatenated encoded representations of individual caption from the
+   image captioning module.
 
 * Learning Paradigm
 There is no learning paradigm in the proposed method. Instead, the proposed
 method leverages pretrained models to solve the VQA problem.
 
 * Key Innovations
-The proposed method has a modular architecture, meaning it is flexible.
+The proposed method has a modular architecture, meaning it is flexible to
+replace (e.g., plug-and-play) pretrained models inside the modules for further
+performance improvements. Furthermore, the proposed network interpretation to
+act as the interface between the visual language models (VLMs) and pretrained
+language models (PLMs) improves the image caption generations which cover
+relevant information to the question, thus improving question-answer accuracy.
+Finally, the proposed method does not require additional training, thus the name
+zero-shot VQA.
 
 * Limitations
+Since the proposed method relies on other pretrained models as the building
+block, it inherits the bias given by the pretrained models. Furthermore, the
+proposed method introduces additional inference cost due to its multi-step
+process.
