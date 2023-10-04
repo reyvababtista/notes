@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       7805bc33-51bf-47be-b404-439d4cdd2ca4
+:ROAM_REFS: cite:tiongPlugandPlayVQAZeroshot2023
+:END:
+#+title: Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training
+
+* Addressed Domains
+Plug-and-play zero-shot Visual Question Answering (VQA) addresses vision and
+language domains (i.e. question answering and image captioning tasks).
+
+* Architectural Multimodality
+As the model's name, it has a modular architecture that is built upon other
+pretrained models and is connected by leveraging natural language and the
+network interpretation. The architecture consists of three modules, that is,
+1. image-question matching module to generate question-guided captions and
+   network interpretation of the input image as shown by sampled \(K\) image
+   patches that are calculated by leveraging the BLIP model and a variation of
+   GradCAM technique,
+2. image captioning module that generates \(N\) captions by stochastic top-\(k\)
+   sampling, this module also leveraging the BLIP model,
+3. question answering module to answer the asked question, given a concatenated encoded
+   representations of individual caption from the image captioning module.
+
+* Learning Paradigm
+There is no learning paradigm in the proposed method. Instead, the proposed
+method leverages pretrained models to solve the VQA problem.
+
+* Key Innovations
+The proposed method has a modular architecture, meaning it is flexible.
+
+* Limitations
