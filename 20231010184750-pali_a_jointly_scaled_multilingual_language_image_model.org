@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       2221cae7-e6c8-4bb5-a5e1-924e365f1d4b
+:ROAM_REFS: cite:chenPaLIJointlyScaledMultilingual2023
+:END:
+#+title: PaLI: A Jointly-Scaled Multilingual Language-Image Model
+
+* Addressed Domains
+Similar to [[id:7805bc33-51bf-47be-b404-439d4cdd2ca4][Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained
+Models with Zero Training]], PaLI addressess vision and textual domains. It
+accepts image and text as inputs and generated text as outputs. PaLI achieves
+SOTA performances in vision and language tasks such as captioning, VQA, and
+scene-text understanding.
+
+* Architectural Multimodality
+PaLI was built upon large pre-trained encoder-decoder language models and Vision
+Transformers (ViTs). PaLI adopts ViT-e ("enormous") pre-trained model for the
+visual component and mT5-XXL pre-trained model as the language model. The paper
+considers three PaLI model sizes, that is PaLI-3B, PaLI-15B, and PaLI-17B.
+
+* Learning Paradigm
+Beside using pre-trained vision and language models, PaLI's authors built a
+high-volume image-and-language dataset WebLI which contains 10 billion images
+and tens of billions of image-text pairs in over 100 languages. WebLI was used
+to pre-trained PaLI using a mixture of eight pre-training tasks. The training
+was conducted using template-based prompt and language-model-style teacher
+forcing.
+
+* Key Innovations
+PaLI has several key innovations:
+1. A simple, modularized, and scalable model that can be trained by reusing
+   existing Transformer-based unimodal checkpoints.
+2. A joint scaling on vision and language components in PaLI that showed no
+   performance saturation. The paper showed that multimodal performance was
+   improved greatly by scaling the vision component.
+3. A mixture-of-objectives (pre-trained tasks) empirically conducted using PaLI
+   validated the performance benefits of doing so.
+4. A scaled-up version of the pre-training data WebLI that includes over 100 languages.
+
+* Limitations
+The dataset used for pre-training, WebLI, was automatically harvested and
+filtered which may includes undesireable images or alt-texts and incorporating
+unknown bias into the model. Also, multi-languages data in WebLI have various
+level of presence and coverage, thus the quality of each generated language may
+vary and contain inaccurate or undesirable outputs.
