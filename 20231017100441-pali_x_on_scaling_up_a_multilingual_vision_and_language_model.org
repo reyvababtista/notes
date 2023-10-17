@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       c1f85c10-76ea-4aee-9d56-ba1ea8a9f0c5
+:ROAM_REFS: cite:chenPaLIXScalingMultilingual2023
+:END:
+#+title: PaLI-X: On Scaling up a Multilingual Vision and Language Model
+
+* Addressed Domains
+PaLI-X is a multilingual vision and language model, inspired by the previous
+work of PaLI [[id:2221cae7-e6c8-4bb5-a5e1-924e365f1d4b][PaLI: A Jointly-Scaled Multilingual Language-Image Model]]. It
+addresses multiple varied and complex vision and language tasks including
+image-based captioning and question-answering, image-based document
+understanding and few-shot learning, object detection, video question answering,
+and video captioning. Furthermore, it achieves state-of-the-art performances on
+most vision-and-language benchmarks.
+
+* Architectural Multimodality
+PaLI-X has an encoder-decorder architecture, that is image(s) input is processed by
+a ViT encoder, producing a visual embeddings that are then combined with a text
+input embeddings. PaLI-X leverages a scaled up ViT with 22B parameters as the
+visual component and a variant of the UL2 encoder-decoder with 32B parameters as
+the language component.
+
+* Learning Paradigm
+PaLI-X was trained with self-supervision and full-supervision signals using a
+total of 13 pretraining mixture of data and objectives. WebLI dataset (~1B
+images with alt-texts from web and OCR annotations) was used as the main
+pretraining data. Moreover, they created Episodic WebLI data that contains
+clusters (i.e., episodes) of similar image-text pairs, producing ~75M episodes
+and ~400M images in total. The training process contains two stages: the first
+stage froze the visual encoder after a mixed-objective training while training
+the rest of the parameters, the second stage continues the training using only
+the OCR-related and object detection objectives.
+
+* Key Innovations
+PaLI-X has a more scaled up parameters as compared to PaLI. It provides a more
+balanced (~40%-60% split) parameter allocation between modalities as compared to
+any prior work. The scaling up approach in PaLI-X produces outstanding
+performances in a wide variety of benchmarks. Furthermore, with a mixture of
+pre-training objectives introduced, PaLI-X is a Pareto frontier for fine-tuning
+vs few-shot performance at its scale. The two stages training approach shows
+that the 22B parameters ViT encoder model can be further trained for image and
+OCR label classification which achieves significant improvements on vision and
+language tasks. Finally, PaLI-X shows SoTA results via fine-tuning on 15+
+benchmarks.
+
+* Limitations
+Like any other deep learning models, PaLI-X could suffer from biases,
+disparities, or encoding narrow cultural perspectives. The paper reported a
+Responsible AI evaluation on PaLI-X. It found that the model has a low level of
+toxicity/profanity and maintain low error rates in performance disparity of
+detecting person with diverse skin colors. Yet, in the demographic parity
+analysis, it often predict man to hold most occupations than woman. Finally, the
+authors aknowledge that model fairness is a dynamic concept that can change
+overtime based on available literatures in the current time and the analyses
+conducted is only a small step towards studying the impact of deployed model
+such as PaLI-X.
