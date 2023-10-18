@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       2ea97e0b-dc48-4e00-aa0e-52e459e89827
+:ROAM_REFS: cite:jaeglePerceiverGeneralPerception2021
+:END:
+#+title: Perceiver: General Perception with Iterative Attention
+
+* Addressed Domains
+Perceiver is a task-agnostic Transformer-based model that leverages an iterative
+cross-attention and latent array to latent array architecture. Perceiver
+demonstrated competitive performances across various task modalities including
+images, point clouds, audio, video, and audio+video.
+
+* Architectural Multimodality
+Perceiver introduced a general iterative architecture that was compiled from two
+modules: 1) a cross-attention module which maps the input byte array and a
+latent array into a latent array, and 2) a Transformer tower that maps a latent
+array into a latent array. The model promotes no modality-specific priors in the
+architecture while having the ability to handle arbitrary configurations of
+different modalities.
+
+* Learning Paradigm
+Perceiver was trained using a supervised learning approach. Different dataset
+were used for training and evaluation. Furthermore, since Perceiver is a
+Transformer-based model, it uses a cross-attention mechanism, structured
+iteratively. Perceiver has a permutation invariance property, i.e. it cannot
+exploit spatial relationships in the input data. Thus, the authors introduced
+position encodings that were concatenated with the input features before passing
+them into Perceiver. Position encodings help Perceiver to understand spatial,
+temporal, and modality identity.
+
+* Key Innovations
+Perceiver uses cross-attention over a latent array (i.e. auxiliary
+low-dimensional array) that reduces the complexity of a vanilla
+Transformer-attention from quadratic to linear with respect to the input size.
+By using cross-attention, Perceiver decouples the network depth from the input
+size. By doing so, Perceiver can be used to construct large networks on a
+large-scale data. Perceiver is performing an 'end-to-end clustering' of the
+inputs with the latent positions as the cluster centers. The iterative
+cross-attention and Transformer modules in Perceiver can also be seen as an
+unrolled RNN architecture. The iterative structure in Perceiver contains a
+cross-attend layers which enables it to extract information from the input image
+as needed. The weight sharing in the iterative structure in Perceiver reduces
+the number of parameters by ~10x while reducing overfitting and increasing
+validation performance. Finally, the position encodings was used to help the
+network utilize the position structure of the input data.
+
+* Limitations
+The authors acknowledged the overfitting issue that comes with the generality of
+Perceiver architecture and had mitigate the said issue (e.g. by sharing weights
+between latent Transformer modules). Furthermore, although Perceiver reduces
+modality-specific priors, it still employ modality-specific augmentation and
+position encodings.
