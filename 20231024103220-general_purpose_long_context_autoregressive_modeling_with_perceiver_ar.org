@@ -5,7 +5,34 @@
 #+title: General-purpose, long-context autoregressive modeling with Perceiver AR
 
 * Addressed domains
+Perceiver AR is a general purpose (i.e. modality-agnostic) architecture that is
+autoregressive, thus making it well-suited for generative tasks in multiple
+modalities. It demonstrated excellent results on images, language, and audio or
+symbolic music modalities.
+
 * Architectural multimodality
+Perceiver AR came from the same architecture idea as its siblings: Perceiver and
+Perceiver IO. The Perceivers map the input space into a smaller latent space
+using cross-attention, then do the subsequent computations in the resulting
+latent space. Hence, Perceivers can be used on large numbers of
+modality-agnostic inputs. The architectural benefits of Perceivers were
+leveraged by Perceiver AR, and further modified to excel at autoregressive
+generation tasks.
+
 * Learning paradigm
+The model was trained using a self-supervised learning approach using multiple
+datasets for multiple modalities, including synthetic generated datasets (e.g.
+for a synthetic copy task).
+
 * Key innovations
+Perceiver AR model was proposed to excel at autoregressive generation tasks such
+as image, books, and music generation. Compared to the other Perceivers family,
+Perceiver AR introduced an ordering to the latents, thus allowing each latent to
+attend only to input preceding it, and using causally masked self-attention
+throughout the latent processing stack. Perceiver AR is capable of
+domain-agnostic autoregressive generation with a long context of over a hundred
+thousand tokens. Furthermore, by implementing the same main idea as the other
+Perceivers, Perceiver AR has an improved computation efficiency as compared to the
+Transformers family.
+
 * Limitations
