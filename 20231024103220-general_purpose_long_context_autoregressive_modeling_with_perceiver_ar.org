@@ -11,8 +11,8 @@ modalities. It demonstrated excellent results on images, language, and audio or
 symbolic music modalities.
 
 * Architectural multimodality
-Perceiver AR came from the same architecture idea as its siblings: Perceiver and
-Perceiver IO. The Perceivers map the input space into a smaller latent space
+Perceiver AR came from the same architecture idea as its siblings: [[id:2ea97e0b-dc48-4e00-aa0e-52e459e89827][Perceiver]] and
+[[id:04803356-e5d9-44b0-b864-98affd2251a3][Perceiver IO]]. The Perceivers map the input space into a smaller latent space
 using cross-attention, then do the subsequent computations in the resulting
 latent space. Hence, Perceivers can be used on large numbers of
 modality-agnostic inputs. The architectural benefits of Perceivers were
