@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7d788329-69cf-48c4-ad1b-b5bd6005ee9e
+:ROAM_REFS: cite:hawthorneGeneralpurposelongcontextautoregressive2022
+:END:
+#+title: General-purpose, long-context autoregressive modeling with Perceiver AR
+
+* Addressed domains
+* Architectural multimodality
+* Learning paradigm
+* Key innovations
+* Limitations
