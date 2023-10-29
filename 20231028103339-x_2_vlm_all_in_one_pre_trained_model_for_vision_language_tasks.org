@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       7cf223fe-1cf3-4b06-a7bd-abdef1dc2f5e
+:ROAM_REFS: cite:zengVLMAllInOnePretrained2023
+:END:
+#+title: X\$\^2\$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks
+
+* Addressed domains
+Similar to Plug-and-Play VQA, X^2-VLM is a task-agnostic Vision-Language model.
+The architecture addressed multi-modal domain that is visual and language (i.e.
+image-text and video-text).
+
+* Architectural multimodality
+X^2-VLM has a modular architecture that contains three modules, a vision module
+using vision transformer, a text module, and a fusion module. All modules inside
+the proposed X^2-VLM architecture is based on the Transformer architecture.
+
+* Learning paradigm
+X^2-VLM modules are pre-trained in a unified supervised framework with a
+multi-grained level, that is images are paired with labels from coarse to fine
+grained. For example, object-level labels can be "man" or "backpack",
+region-level labels are "boy wearing backpack", and a text description of the
+image such as "The first day of schoool gives mixed feeling to both students and
+parents". The authors hypotized that by doing multi-grained labels, the model
+can learn visual concepts described by diverse text.
+
+* Key innovations
+The proposed multi-grained unified pre-training learning framework demonstrated
+excellent performances with some results achieved state-of-the-art. Furthermore,
+by having a modular architecture, X^2-VLM modules can be easily replaced. For
+instance, by replacing the text encoder module with XLM-R model, X^2-VLM
+outperforms SoTA methods on multi-lingual multi-modal tasks.
+
+* Limitations
