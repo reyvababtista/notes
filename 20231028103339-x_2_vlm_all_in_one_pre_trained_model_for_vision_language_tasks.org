@@ -5,29 +5,44 @@
 #+title: X\$\^2\$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks
 
 * Addressed domains
-Similar to Plug-and-Play VQA, X^2-VLM is a task-agnostic Vision-Language model.
-The architecture addressed multi-modal domain that is visual and language (i.e.
-image-text and video-text).
+Similar to [[id:7805bc33-51bf-47be-b404-439d4cdd2ca4][Plug-and-Play VQA]], X^2-VLM is a task-agnostic modular Vision-Language
+model. The architecture addressed a multi-modal domain that is visual (i.e.
+image-text and video-text) and language. Specifically, X^2-VLM was proposed as a
+unified learning framework for multi-grained alignments between vision and
+language. The paper evaluated the model in multi-lingual multi-modal
+vision-language tasks including retrieval, VQA, reasoning, and grounding.
 
 * Architectural multimodality
 X^2-VLM has a modular architecture that contains three modules, a vision module
 using vision transformer, a text module, and a fusion module. All modules inside
-the proposed X^2-VLM architecture is based on the Transformer architecture.
+the proposed X^2-VLM architecture is based on the Transformer architecture. The
+vision module encodes images and utilize their patch features such as objects,
+regions, or the images themself to represent multi-grained visual concepts. The
+fusion module fuses the vision and text features through cross-attention at each
+layer, where the text features work as queries and vision features work as keys
+and values.
 
 * Learning paradigm
 X^2-VLM modules are pre-trained in a unified supervised framework with a
-multi-grained level, that is images are paired with labels from coarse to fine
-grained. For example, object-level labels can be "man" or "backpack",
-region-level labels are "boy wearing backpack", and a text description of the
-image such as "The first day of schoool gives mixed feeling to both students and
-parents". The authors hypotized that by doing multi-grained labels, the model
-can learn visual concepts described by diverse text.
+multi-grained alignments and localizations, that is images are paired with
+labels from coarse to fine grained. For example, object-level labels can be
+"man" or "backpack", region-level labels are "boy wearing backpack", and a text
+description of the image such as "The first day of schoool gives mixed feeling
+to both students and parents". The authors hypotized that by doing multi-grained
+labels, the model can learn visual concepts described by diverse texts. Hence,
+the model can learn weak-correlated image-text pairs and the relationships
+between objects in each image.
 
 * Key innovations
-The proposed multi-grained unified pre-training learning framework demonstrated
-excellent performances with some results achieved state-of-the-art. Furthermore,
-by having a modular architecture, X^2-VLM modules can be easily replaced. For
+The proposed unified simultaneous multi-grained alignments and localizations
+pre-training learning framework in image-text and video-text multi-modal domains
+demonstrated excellent performances with some tasks achieved state-of-the-art
+results, including retrieval, VQA, reasoning, and grounding. Furthermore, by
+having a modular architecture, X^2-VLM modules can be easily replaced. For
 instance, by replacing the text encoder module with XLM-R model, X^2-VLM
-outperforms SoTA methods on multi-lingual multi-modal tasks.
+outperforms SoTA methods on multi-lingual multi-modal tasks. Furthermore, the
+experimental results shown in the paper showed that the proposed framework is
+scalable to massive data and larger model size.
 
-* Limitations
+* Limitatios
+There is no limitations discussed in the paper.
