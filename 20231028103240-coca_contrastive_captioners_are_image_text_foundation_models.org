@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       df1f7289-1e78-4472-9006-d675e8d637d7
+:ROAM_REFS: cite:yuCoCaContrastiveCaptioners2022
+:END:
+#+title: CoCa: Contrastive Captioners are Image-Text Foundation Models
+
+* Addressed domains
+* Architectural multimodality
+* Learning paradigm
+* Key innovations
+* Limitations
