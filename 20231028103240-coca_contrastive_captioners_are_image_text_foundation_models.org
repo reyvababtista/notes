@@ -5,27 +5,47 @@
 #+title: CoCa: Contrastive Captioners are Image-Text Foundation Models
 
 * Addressed domains
-Contrastive Captioner (CoCa) is an image-text foundation models that is
-pretrained using a join contrastive and captioning losses. It addresses visual
-and language modals with state-of-the-art performances on visual recognition,
-multimodal understanding, and image captioning tasks.
+Contrastive Captioner (CoCa) is an image-text foundation models with a simple
+encoder-decoder approach that is pretrained using a join contrastive and
+captioning losses. It addresses visual and language modals with state-of-the-art
+performances on visual recognition, multimodal understanding, and image
+captioning tasks.
 
 * Architectural multimodality
-CoCa
+CoCa is built upon two modules, an image encoder and a text decoder that is
+splitted into an unimodal text decoder and multimodal text decoder. The image
+encoder encodes the images into latent representations and is based on vision
+transformer (ViT) by default (can also be based on other image encoders like
+ConvNet). The text decoder is based on Transformer and decodes text with causal
+masking.
+
 * Learning paradigm
-CoCa is trained on image annotation data and noisy image-text data by treating
-all labels as text.
+CoCa is trained end-to-end from scratch on image annotation data and noisy
+image-text data by treating all labels as text. It performs one forward and
+backward propagation for a batch of image-text pairs. By having a decoupled
+autoregressive decoder, CoCa can shared the computations between two training
+losses from both decoders with minimal overhead.
 
 * Key innovations
 CoCa unifies single-encoder, dual-encoder, and encoder-decorder paradigms in
-their training approach by leveraging image encoder, unimodal text decoder, and
-multimodal text decoder that are trained with contrastive and captioning
-(generative) losses. CoCa used a Transformer decoder and divided it into two
-parts: unimodal and multimodal. The unimodal decoder only encode text
-representations which then cascades into the multimodal decoder layer,
-cross-attending to the image encoder outputs. This process enables CoCa to learn
-the multimodal image-text representation. The contrastive learning was leveraged
-by CoCa to learn global representations while captioning (generative) was used
-for fine-grained region-level features.
+their training approach by leveraging an image encoder and a decoder which was
+decoupled into unimodal text decoder and multimodal text decoder that are
+trained with contrastive and captioning (generative) losses. CoCa used different
+attentional poolers for each training objectives. The unimodal decoder only
+encode text representations which then cascades into the multimodal decoder
+layer, cross-attending to the image encoder outputs. This process enables CoCa
+to learn the multimodal image-text representation. The contrastive learning was
+leveraged by CoCa to learn global representations while captioning (generative)
+was used for fine-grained region-level features. Finally, the pretrained model
+is capable of doing a wide range of downstream tasks in a zero-shot manner or
+with lightweight finetuning.
 
 * Limitations
+Like any other deep learning models pretrained on massive data, CoCa might
+suffer from fairness, social bias, and potential misuse. The authors mentioned a
+need for further community exploration to understand and mitigate the said
+possible issues. Moreover, although CoCa are more robust on corrupted images, it
+may be vunerable to other image corruptions outside the tested evaluation sets.
+Finally, additional analysis of the data and resulting model is necessary before
+using the model in practice since it was pretrained using the same pretraining
+data as previous methods.
