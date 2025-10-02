@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3f00f5e1-2145-46ac-94ac-577e51ec5bea
+:END:
+#+title: Oura Daytime Stress feature
+
+How might stress appear in your biometrics? A lower-than-usual HRV, for
+instance, can indicate that your sympathetic nervous system is overworked.
+Stress might also show up as a faster resting heart rate and higher respiratory
+rate, indicating a rapid heartbeat and fast, shallow breathing — both of which
+are features of a stress response.
+
+Additionally, when exposed to stress, your peripheral body temperature (measured
+at the base of your fingers), can dip. This is because the blood vessels in your
+hands and fingers can constrict and reduce blood flow.
+
+References:
+[[https://ouraring.com/blog/daytime-stress-feature/][Discover Oura’s Daytime Stress Feature]]
+[[https://ouraring.com/blog/inside-the-ring-daytime-stress/][Inside the Ring: Understanding Oura’s New Daytime Stress Feature]]

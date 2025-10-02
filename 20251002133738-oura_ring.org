@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       fd80b670-8fec-42a7-9595-31fb353ffe18
+:END:
+#+title: Oura Ring
+
+* What can I get from the API?
+1. Personal info:
+   1. Weight
+   2. Height
+   3. etc.
+2. Ring info
+3. Daily activity summary
+   1. Metabolic Equivalent (MET) value per minute.
+4. Daily sleep summary
+5. Daily SpO2 summary
+6. Daily stress summary. See: [[id:3f00f5e1-2145-46ac-94ac-577e51ec5bea][Oura Daytime Stress feature]]
+7. Heart rate per 5-min
+8. Sleep session:
+   1. Heart rate during sleep in 300 seconds (5-min) interval
+   2. Heart rate variability during sleep in 5-min interval
+   3. 30-second movement classification for the period where every character corresponds to:
+    '1' = no motion,
+    '2' = restless,
+    '3' = tossing and turning
+    '4' = active
+   4. 5-minute sleep phase classification for the period where every character corresponds to:
+    '1' = deep sleep,
+    '2' = light sleep,
+    '3' = REM sleep
+    '4' = awake.
+9. Sleep time recommendation
+10. Vo2 max during intense exercise
+11. Workout data
+12. Cardio vascular age prediction (daily)
+13. Daily readiness level (0-100)
+14. Daily resilience level (0-100)
