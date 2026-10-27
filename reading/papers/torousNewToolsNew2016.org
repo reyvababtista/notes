@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:        1067fc3b-b2f4-4dcb-a224-e6e7a537ffa5
+:ROAM_REFS: @torousNewToolsNew2016 https://doi.org/10.2196/mental.5165
+:END:
+#+title: New Tools for New Research in Psychiatry: A Scalable and Customizable Platform to Empower Data Driven Smartphone Research
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: John Torous, Mathew V. Kiang, Jeanette Lorme, Jukka-Pekka Onnela
+- Published :: JMIR Mental Health · 2016
+- Read :: [[https://read.rbabtista.dev/papers/g5555152/PVHFIK2D/][Reading Room]] · [[zotero://select/groups/5555152/items/PVHFIK2D][Zotero]] · [[https://doi.org/10.2196/mental.5165][DOI]]
+
+* Highlights
+None yet.
+
+# ---- end of Reading Room highlights ----

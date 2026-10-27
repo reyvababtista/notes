@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:        d5537590-39f9-4395-85ca-26ffe7095ecc
+:ROAM_REFS: @mullerAnalyzingGPSData
+:END:
+#+title: Analyzing GPS Data for Psychological Research: A Tutorial
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Sandrine R Müller, Joseph B Bayer, Morgan Quinn Ross and 5 others
+- Read :: [[https://read.rbabtista.dev/papers/my/N6XK9ZZI/][Reading Room]] · [[zotero://select/library/items/N6XK9ZZI][Zotero]]
+
+* Highlights
+** p. 2
+#+begin_quote
+An accuracy of 100 means that the true location has a 68% chance (i.e., ±1 SD) to fall within 100 m of the GPS location.
+#+end_quote
+
+#+begin_quote
+For taking trips away from home, each participant was created with either a 10% (low tendency) or 80% (high tendency) likelihood of taking a trip when possible.
+#+end_quote
+
+** p. 3
+#+begin_quote
+For visiting repeated locations, each participant was created with either a 10% (low repeats) or 80% (high repeats) likelihood of visiting a location he or she had previously visited.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

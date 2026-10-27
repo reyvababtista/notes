@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:        ff08bfe4-8457-4918-8490-cb9bbc82e428
+:ROAM_REFS: @grummittMultivariablemachinelearning2025 https://doi.org/10.1111/add.70145
+:END:
+#+title: Multivariable machine learning prediction of risky alcohol use in contemporary youth
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Lucinda Grummitt, Rachel Visontay, Philip Clare and 2 others
+- Published :: Addiction (Abingdon, England) · 2025
+- Read :: [[https://read.rbabtista.dev/papers/my/WBRBF3CA/][Reading Room]] · [[zotero://select/library/items/WBRBF3CA][Zotero]] · [[https://doi.org/10.1111/add.70145][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+The SuperLearner package in R was used to test a series of models [regularised regression (LASSO, ridge and elastic net), random forest and kernel support vector machine (SVM)] using nested 10-fold cross-validation to identify the overall predictive ability of the model (measured by area under the curve; AUC) and the most important predictors of risky alcohol use across childhood and adolescence.
+#+end_quote
+
+** p. 2
+#+begin_quote
+n ensemble learning approach appears to have good predictive ability of risky alcohol use among a contemporary cohort of young Australians.
+#+end_quote
+
+#+begin_quote
+defined as no more than 10 standard drinks weekly and no more than 4 standard drinks in a single day for adults
+#+end_quote
+
+#+begin_quote
+at the individual level, these include personality traits such as impulsivity and sensation seeking, a range of externalising behaviours including conduct problems, antisocial behaviours and hyperactivity.
+#+end_quote
+
+#+begin_quote
+strong coping skills, positive relationships with family and friends and associations with peers that value sobriety or moderate drinking were found to protect against alcohol use.
+#+end_quote
+
+** p. 3
+#+begin_quote
+The weight of any single predictor was modest, highlighting the multifaceted nature of alcohol use predictors and the value of combining multiple domains within machine learning frameworks.
+#+end_quote
+
+#+begin_quote
+studies that included neurobiological factors or cognitive functioning found these do not substantially improve prediction above psychosocial predictors
+#+end_quote
+
+#+begin_quote
+only one study used ensemble machine learning
+#+end_quote
+
+#+begin_quote
+An important advantage is the balance between bias and variance compared to traditional predictive models like logistic regression or single decision trees.
+#+end_quote
+
+#+begin_quote
+Bias refers to errors introduced when a model is too simplistic, missing key patterns in the data. Variance, on the other hand, reflects errors from a model being overly sensitive to small fluctuations in the training data, leading to predictions that do not generalise well.
+#+end_quote
+
+** p. 4
+#+begin_quote
+our analytic approach mitigates this rule through the use of base algorithms that use regularisation, non-parametric modelling and cross-validated ensemble learning,
+#+end_quote
+
+#+begin_quote
+Those who responded they had never had an alcoholic drink, had not drunk alcohol in the past year or past month or had drunk 10 or less drinks in the past week were all coded as not engaging in risky alcohol use
+#+end_quote
+
+** p. 5
+#+begin_quote
+Our machine learning approach is well-suited to handle highly correlated data without compromising model performance
+#+end_quote
+
+#+begin_quote
+The average percent of missing data across all variables was 27%, and no predictors were included where more than 50% of participants had missing responses.
+#+end_quote
+
+#+begin_quote
+Missing data was handled through k-nearest neighbour (KNN) imputation using the VIM package in R.
+#+end_quote
+
+#+begin_quote
+The dataset was split into 15 outer folds (5-fold cross-validation repeated 3 times) to evaluate model performance, while inner 10-fold cross-validation tuned hyperparameters for three base learners: random forest (ranger), elastic net regression (glmnet) and SVM with radial basis kernel (ksvm).
+#+end_quote
+
+# ---- end of Reading Room highlights ----

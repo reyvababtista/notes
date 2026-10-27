@@ -1,0 +1,342 @@
+:PROPERTIES:
+:ID:        587200b6-4aa7-45ee-a890-064cf93d2bc0
+:ROAM_REFS: @quigleyPublicationguidelineshuman2024 https://doi.org/10.1111/psyp.14604
+:END:
+#+title: Publication guidelines for human heart rate and heart rate variability studies in psychophysiology—Part 1: Physiological underpinnings and foundations of measurement
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Karen S. Quigley, Peter J. Gianaros, Greg J. Norman and 3 others
+- Published :: Psychophysiology · 2024
+- Read :: [[https://read.rbabtista.dev/papers/my/VD9FHFMF/][Reading Room]] · [[zotero://select/library/items/VD9FHFMF][Zotero]] · [[https://doi.org/10.1111/psyp.14604][DOI]]
+
+* Highlights
+** p. 2
+#+begin_quote
+summarizes common measures of HR and HRV, as well as available recording methods suitable for laboratory and ambulatory (or other field) contexts
+#+end_quote
+
+#+begin_quote
+reviews and compares conventional and emerging measures and associated analytic approaches
+#+end_quote
+
+#+begin_quote
+reviews of HRV measures (Acharya et al., 2006; Allen et al., 2007; Bravi et al., 2011; Sassi et al., 2015; Shaffer & Ginsberg, 2017; Sztajzel, 2004; Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology, 1996; Xhyheri et al., 2012)
+#+end_quote
+
+** p. 3
+#+begin_quote
+The ECG comprises a series of voltage deflections, each corresponding to electromechanical events in the heart and designated with the letters P through T (see Figure 1).
+#+end_quote
+
+#+begin_quote
+P wave corresponds to the electrical depolarization of the left atrium
+#+end_quote
+
+#+begin_quote
+contraction of both atria
+#+end_quote
+
+#+begin_quote
+(e.g., between successive R waves) is referred to as the heart period (HP), which is synonymous with the terms, interbeat interval (IBI) and R–R interval
+#+end_quote
+
+#+begin_quote
+HP also typically shows a statistically more normal distribution than HR (Jennings et al., 1974). HP is therefore often the more appropriate metric to use in scientific analyses when inferring neural influences.
+#+end_quote
+
+** p. 4
+#+begin_quote
+resting HP
+#+end_quote
+
+#+begin_quote
+short-term HR changes induced by physical or psychological manipulations, that is, “HR reactivity,”
+#+end_quote
+
+** p. 7
+#+begin_quote
+The ECG is a voltage signal, which is acquired most commonly via electrodes made of an amalgam of silver and silver chloride (Ag/AgCl) and using a high-conductivity gel (generally 3–10% sodium chloride (NaCl)).
+#+end_quote
+
+#+begin_quote
+Electrode placements should be specified anatomically
+#+end_quote
+
+#+begin_quote
+The HP also can be derived from other peaks in the ECG, for example, in medical applications or when other features of the ECG waveform are of interest
+#+end_quote
+
+#+begin_quote
+The analog ECG signal is typically sampled at 2501000 Hz for measurement of HP, converted to digital form, and stored via a computer-based data acquisition system.
+#+end_quote
+
+#+begin_quote
+1000 Hz is therefore the recommended frequency
+#+end_quote
+
+** p. 8
+#+begin_quote
+With each heartbeat, blood flow within the vasculature produces a beat-bybeat blood volume pulse (BVP) signal
+#+end_quote
+
+#+begin_quote
+PPG is more suitable for HR or HRV measurement than pulse oximetry
+#+end_quote
+
+#+begin_quote
+For a more detailed discussion of PPG measures, we refer readers to Lee et al. (2021) and Allen (2007).
+#+end_quote
+
+#+begin_quote
+PPG method has a much lower signal-to-noise ratio than the ECG, and this difference will be amplified by movement and physical activity
+#+end_quote
+
+** p. 9
+#+begin_quote
+ndividual differences in skin color, skin thickness, and adiposity can impact PPG signals
+#+end_quote
+
+#+begin_quote
+Tissue composition and thickness, as well as pressure on the skin, will alter PPG morphology and amplitudes, creating problems both for between-participant and repeated (or between-session) studies.
+#+end_quote
+
+#+begin_quote
+peak timing and pulse shape can be influenced by factors such as changes in compliance in the aorta, artery size, vasoconstriction or dilation due to thermoregulation or other factors, changes in viscosity of the blood, or changes in overall blood volume in the perfused bed
+#+end_quote
+
+#+begin_quote
+All of these considerations mean that two equivalent R–R intervals derived from R-wave timing from the ECG can be associated with different pulse-to-pulse intervals derived from the PPG.
+#+end_quote
+
+#+begin_quote
+A comparison of commercial-grade PPG-based beat detection to ECG-based detection under resting and physically active conditions yields greater variation with activity (vs. rest) and considerable variation across devices
+#+end_quote
+
+#+begin_quote
+Regardless of the nature of the hardware, the accuracy of any newly introduced recording system should be evaluated against a recording system that utilizes a known (not proprietary) and tested technology (i.e., considered a gold standard) or against simulated calibration signals with known characteristics, for example, from Physionet (Vest et al., 2018) or NeuroKit2 (Makowski et al., 2021; Pham et al., 2021).
+#+end_quote
+
+#+begin_quote
+The foundation for measures of cardiac chronotropy (i.e., HP and HR) rests upon the integrity of the input signal (e.g., ECG or PPG) and the accuracy of the detection of the point in each cardiac cycle from which measurements are made, that is, the fiducial or timing point
+#+end_quote
+
+** p. 10
+#+begin_quote
+measuring the actual R–R intervals, if visually identifiable, from the ECG record, and manually marking the R wave,
+#+end_quote
+
+#+begin_quote
+None of these approaches will seriously bias estimates of the overall mean of the HP series (for any multi-second or longer epoch), although the latter two approaches may affect the variance, and hence HRV metrics.
+#+end_quote
+
+#+begin_quote
+Consistent assessment and correction of such deviations as described above can be tedious when done entirely interactively, especially with large numbers of participants or long-term recordings.
+#+end_quote
+
+#+begin_quote
+peak-detection algorithms
+#+end_quote
+
+#+begin_quote
+independent components analysis
+#+end_quote
+
+#+begin_quote
+wavelet-transform-based approaches
+#+end_quote
+
+#+begin_quote
+A follow-up of automated approaches by interactive visual inspection is recommended
+#+end_quote
+
+#+begin_quote
+Visual inspection may in some cases justify automated corrections and in other cases point to substantial occurrence of ectopic beats
+#+end_quote
+
+#+begin_quote
+Studies with a moderate or larger sample size and those with older or less healthy samples are especially likely to yield participants having abnormal sinus beats.
+#+end_quote
+
+#+begin_quote
+Familiarity with the varieties of harmless and harmful abnormalities is advisable.
+#+end_quote
+
+#+begin_quote
+Use of a standard text such as Goldberger et al. (2018) or Dubin (2000) is recommended to provide guidance for research staff working in psychophysiological laboratories.
+#+end_quote
+
+** p. 12
+#+begin_quote
+A classical approach is to choose an epoch of several minutes (or seconds) of a pre-stimulus period from which one calculates a baseline HP and a comparable period of some minutes (or seconds) of a post-stimulus period to calculate a task HP
+#+end_quote
+
+#+begin_quote
+What is the phasic change in HP over some relevant post-stimulus period compared with the baseline?
+#+end_quote
+
+#+begin_quote
+The periodic components of this variability in the HP time series are known to cluster around two prominent frequency peaks, which can be exploited to derive noninvasive measures of autonomic cardiac effects.
+#+end_quote
+
+#+begin_quote
+Confusingly, history has endowed us with the terminology of heart rate variability (HRV) at the expense of the more appropriate heart period variability (HPV).
+#+end_quote
+
+#+begin_quote
+labeling the beat-to-beat variability in HP as “HRV.”
+#+end_quote
+
+#+begin_quote
+HRV measures were conceptualized as “trait-like” individual difference variables that reflected behavioral and autonomic phenotypes
+#+end_quote
+
+** p. 14
+#+begin_quote
+Factors that influence HRV independent of tonic levels of autonomic cardiac control will necessarily complicate the use of HRV as a measure of (changes in) tonic autonomic activity.
+#+end_quote
+
+** p. 16
+#+begin_quote
+RSA is mostly reflected in the HRV around the HF peak, as the band from around 0.12 to 0.4Hz3 generally contains the average respiratory frequency in adult humans.
+#+end_quote
+
+** p. 18
+#+begin_quote
+If one wishes to specifically infer that the HF HRV metric reflects RSA, it is always necessary to state that the HF HRV may be compromised by respiratory fluctuations outside the selected HF HRV band
+#+end_quote
+
+** p. 19
+#+begin_quote
+both autonomic branches can influence lower frequency cardiac rhythms, typically defined as HRV in the 0.05–0.15 Hz frequency band (although a lower limit of 0.04 has also been used).
+#+end_quote
+
+** p. 21
+#+begin_quote
+Therefore, the evaluation of HRV within the HF band is generally considered to reflect cardiac parasympathetic effects
+#+end_quote
+
+#+begin_quote
+at least at rest, LF HRV is not an appropriate index of sympathetic activity
+#+end_quote
+
+#+begin_quote
+Without refuting their potential clinical utility, we recommend not using either LF/HF ratio or the LF HRV as selective measures of sympathetic activity in psychophysiological research.
+#+end_quote
+
+** p. 22
+#+begin_quote
+Changes in respiratory behavior (rate and depth) have a strong impact on HRV measures,
+#+end_quote
+
+#+begin_quote
+Recording contexts where people are regularly speaking will strongly impact measures of HRV, including RSA
+#+end_quote
+
+** p. 23
+#+begin_quote
+it is problematic to compare recording contexts where people are speaking with those where they are not,
+#+end_quote
+
+#+begin_quote
+Attributing within-subject changes in RSA across experimental conditions or treatments to changes in cardiac parasympathetic activity would require posture to be kept constant
+#+end_quote
+
+#+begin_quote
+If the goal is to predict cardiac parasympathetic activity, the best approach is to include both RSA and mean HP in the prediction model
+#+end_quote
+
+** p. 24
+#+begin_quote
+derivation of HRV metrics is even more sensitive to errors in fiducial-point detection accuracy,
+#+end_quote
+
+#+begin_quote
+and errors in turn more strongly impact the ability to reliably detect any experimental or contextual effects, individual differences of interest, and other related phenomena
+#+end_quote
+
+#+begin_quote
+artifact-laden epochs within a HP series cannot simply be deleted because this would disturb the continuity of the time series, which must be maintained.
+#+end_quote
+
+#+begin_quote
+Very serious biases are known to occur when artifacts go undetected and unresolved, with even a single missed R wave within a 2-min recording epoch increasing estimates of HRV several fold
+#+end_quote
+
+#+begin_quote
+One popular interpolation method is cubic spline interpolation,
+#+end_quote
+
+#+begin_quote
+The interpolation approach would be expected to produce minimal distortion in measures from healthy individuals who have relatively few abnormal beats.
+#+end_quote
+
+#+begin_quote
+Although a sampling frequency of 1000 Hz should also be considered the default for HRV
+#+end_quote
+
+#+begin_quote
+the expectation would be that HRV from PPG is of lower quality,
+#+end_quote
+
+#+begin_quote
+Emerging methods in engineering and allied fields attempt to correct PPG signals for motion artifact using co-recorded accelerometry and machine learning.
+#+end_quote
+
+#+begin_quote
+the ECG is recommended as the best source of HRV derivation
+#+end_quote
+
+** p. 25
+#+begin_quote
+standard deviation of all normal heart periods (SDNN)
+#+end_quote
+
+#+begin_quote
+root mean square of the successive beat
+#+end_quote
+
+#+begin_quote
+differences (RMSSD)
+#+end_quote
+
+#+begin_quote
+traditionally 24 h
+#+end_quote
+
+** p. 28
+#+begin_quote
+Moving polynomial filter
+#+end_quote
+
+#+begin_quote
+Frequency analyses
+#+end_quote
+
+** p. 30
+#+begin_quote
+HRV tends to increase with the length of the analyzed epoch
+#+end_quote
+
+#+begin_quote
+approximately 30 s (in typical adults with a HP ≤ 1000 ms) or 1 min (at a HP > 1000 ms) is needed to assess the HF component, and approximately 2 min are needed to assess the LF component.
+#+end_quote
+
+#+begin_quote
+n fact, recordings of RMSSD as short as 10 s and SDNN as short as 30 s, when aggregated across multiple epochs during a resting baseline, can closely approximate results with longer duration recordings
+#+end_quote
+
+#+begin_quote
+it has been suggested to adjust the respiration range (and thus HFHRV band) for this population to 0.24–1.04 Hz
+#+end_quote
+
+** p. 31
+#+begin_quote
+is to measure respiratory behavior by co-recording a respiration signal.
+#+end_quote
+
+#+begin_quote
+The co-recorded respiration signal is also important for detecting artifacts due to respiratory maneuvers such as yawning, coughs, or speech.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

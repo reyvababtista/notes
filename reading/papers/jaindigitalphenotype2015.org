@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:        439d0554-d783-4f20-88e3-5ed88117f5a2
+:ROAM_REFS: @jaindigitalphenotype2015 https://doi.org/10.1038/nbt.3223
+:END:
+#+title: The digital phenotype
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Sachin H Jain, Brian W Powers, Jared B Hawkins, John S Brownstein
+- Published :: Nature Biotechnology · 2015
+- Read :: [[https://read.rbabtista.dev/papers/my/J5HV7VVS/][Reading Room]] · [[zotero://select/library/items/J5HV7VVS][Zotero]] · [[https://doi.org/10.1038/nbt.3223][DOI]]
+
+* Highlights
+** p. 462
+#+begin_quote
+Through the lens of the digital phenotype, an individual’s interaction with digital technologies affects the full spectrum of human disease from diagnosis, to treatment, to chronic disease management.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

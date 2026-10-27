@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:        7d9ab8b3-2282-49be-b9fb-baecd0fe51ed
+:ROAM_REFS: @soysterPooledpersonspecificmachine2022 https://doi.org/10.1037/adb0000666
+:END:
+#+title: Pooled and person-specific machine learning models for predicting future alcohol consumption, craving, and wanting to drink: A demonstration of parallel utility.
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Peter D. Soyster, Leighann Ashlock, Aaron J. Fisher
+- Published :: Psychology of Addictive Behaviors · 2022
+- Read :: [[https://read.rbabtista.dev/papers/my/TU8DRGHZ/][Reading Room]] · [[zotero://select/library/items/TU8DRGHZ][Zotero]] · [[https://doi.org/10.1037/adb0000666][DOI]]
+
+* Highlights
+** p. 4
+#+begin_quote
+what causes someone to drink in a way that hurts their well-being, and how can they be helped to modify their drinking behavior?
+#+end_quote
+
+** p. 6
+#+begin_quote
+For this reason, the present study pursued complementary analyses of idiographic and nomothetic data structures for predicting alcohol consumption, craving, and wanting to drink.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

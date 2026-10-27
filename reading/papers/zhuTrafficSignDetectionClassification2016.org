@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:        51948d2a-7461-4a93-b614-136b0f6238fa
+:ROAM_REFS: @zhuTrafficSignDetectionClassification2016 https://doi.org/10.1109/cvpr.2016.232
+:END:
+#+title: Traffic-Sign Detection and Classification in the Wild
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Zhe Zhu, Dun Liang, Songhai Zhang and 3 others
+- Published :: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) · 2016
+- Read :: [[https://read.rbabtista.dev/papers/my/2ARGMY5P/][Reading Room]] · [[zotero://select/library/items/2ARGMY5P][Zotero]] · [[https://doi.org/10.1109/cvpr.2016.232][DOI]]
+
+* Highlights
+** p. 2111
+#+begin_quote
+mark(GTSDB) [25] task and classification benchmark (GTSRB) [24] task
+#+end_quote
+
+** p. 2113
+#+begin_quote
+We trained two networks in total, one for detection alone, and one for simultaneous detection and classification
+#+end_quote
+
+** p. 2114
+#+begin_quote
+OverFeat
+#+end_quote
+
+** p. 2115
+#+begin_quote
+This indicates that object proposal approaches are not suitable for locating small objects in large images, even when the number of candidate proposals is sufficiently large
+#+end_quote
+
+# ---- end of Reading Room highlights ----

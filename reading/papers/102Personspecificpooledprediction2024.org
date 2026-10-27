@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:        6f2f5272-3299-49cf-87d9-0e3d11748aad
+:ROAM_REFS: @102Personspecificpooledprediction2024 https://doi.org/10.1017/s0033291724000862
+:END:
+#+title: Person-specific and pooled prediction models for binge eating, alcohol use and binge drinking in bulimia nervosa and alcohol use disorder
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: N. 102, P. Soyster, J. Ceccarini and 3 others
+- Published :: Psychological Medicine · 2024
+- Read :: [[https://read.rbabtista.dev/papers/my/B5ZKKW7M/][Reading Room]] · [[zotero://select/library/items/B5ZKKW7M][Zotero]] · [[https://doi.org/10.1017/s0033291724000862][DOI]]
+
+* Highlights
+** p. 2
+#+begin_quote
+Namely, the research designs of these JITAIs were primarily based on previous literature (e.g. which information should be gathered from participants and how it should be evaluated), which means that the decision to send out an intervention was static and based on findings from previous studies.
+#+end_quote
+
+#+begin_quote
+Several ML algorithms can examine a large number of variables and select only those that are most predictive of an outcome
+#+end_quote
+
+#+begin_quote
+When it comes to alcohol use, studies have demonstrated that pooled models can successfully use phone sensor data to predict non-heavy alcohol use as well as BD in individuals without AUD (Bae et al., 2017, 2018).
+#+end_quote
+
+#+begin_quote
+This is problematic as a small sample size can have serious methodological implications in ML (Way, Sahiner, Hadjiiski, & Chan, 2010).
+#+end_quote
+
+** p. 6
+#+begin_quote
+Second, temporal variables were created that represented assessment number (i.e. 1–8), weekday (i.e. Thursday, Friday, and Saturday), time since starting participation in the study (linear, quadratic, and cubic) and cycles of 12 h, and 24 h frequency (Flury & Levri, 1999).
+#+end_quote
+
+#+begin_quote
+linear, quadratic, and cubic
+#+end_quote
+
+#+begin_quote
+The pooled models used all predictors.
+#+end_quote
+
+#+begin_quote
+The variables could be lagged across days, but not across weeks.
+#+end_quote
+
+#+begin_quote
+Fifth, observations with missing values were removed from the data.
+#+end_quote
+
+#+begin_quote
+Personspecific
+#+end_quote
+
+** p. 7
+#+begin_quote
+Pooled
+#+end_quote
+
+** p. 8
+#+begin_quote
+There was an imbalance in the outcomes
+#+end_quote
+
+#+begin_quote
+The performance metrics had a skewed distribution within and between participants. Therefore, the median across folds and across participants was used to describe them.
+#+end_quote
+
+** p. 10
+#+begin_quote
+This aligns with recent findings indicating that correcting for an outcome
+#+end_quote
+
+#+begin_quote
+imbalance may introduce bias
+#+end_quote
+
+# ---- end of Reading Room highlights ----

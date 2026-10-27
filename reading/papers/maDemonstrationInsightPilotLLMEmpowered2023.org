@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:        692ff0cd-9420-4bb9-8cd3-e6fd88b42280
+:ROAM_REFS: @maDemonstrationInsightPilotLLMEmpowered2023 https://doi.org/10.48550/arxiv.2304.00477
+:END:
+#+title: Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Pingchuan Ma, Rui Ding, Shuai Wang and 2 others
+- Published :: arXiv · 2023
+- Read :: [[https://read.rbabtista.dev/papers/g5555152/BKQZ7HQH/][Reading Room]] · [[zotero://select/groups/5555152/items/BKQZ7HQH][Zotero]] · [[https://doi.org/10.48550/arxiv.2304.00477][DOI]]
+
+* Highlights
+None yet.
+
+# ---- end of Reading Room highlights ----

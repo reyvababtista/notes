@@ -1,0 +1,163 @@
+:PROPERTIES:
+:ID:        7480cf1b-2215-4547-8568-ec7b6d398ec7
+:ROAM_REFS: @yuCoCaContrastiveCaptioners2022 http://arxiv.org/abs/2205.01917
+:END:
+#+title: CoCa: Contrastive Captioners are Image-Text Foundation Models
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Jiahui Yu, Zirui Wang, Vijay Vasudevan and 3 others
+- Published :: arXiv · 2022
+- Read :: [[https://read.rbabtista.dev/papers/my/4LVUQBBJ/][Reading Room]] · [[zotero://select/library/items/4LVUQBBJ][Zotero]] · [[http://arxiv.org/abs/2205.01917][original]]
+
+* Highlights
+** p. 1
+#+begin_quote
+Contrastive Captioner (CoCa), a minimalist design to pretrain an image-text encoder-decoder foundation model jointly with contrastive loss and captioning loss
+#+end_quote
+
+#+begin_quote
+where all decoder layers attend to encoder outputs
+#+end_quote
+
+#+begin_quote
+CoCa omits cross-attention in the first half of decoder layers to encode unimodal text representations
+#+end_quote
+
+#+begin_quote
+a contrastive loss between unimodal image and text embeddings
+#+end_quote
+
+#+begin_quote
+a captioning loss on the multimodal decoder outputs which predicts text tokens autoregressively
+#+end_quote
+
+#+begin_quote
+CoCa is pretrained end-to-end and from scratch on both web-scale alt-text data and annotated images by treating all labels simply as text, seamlessly unifying natural language supervision for representation learning
+#+end_quote
+
+#+begin_quote
+zero-shot, few-shot or transfer learning
+#+end_quote
+
+#+begin_quote
+pretraining foundation models for massive downstream tasks can amortize training costs
+#+end_quote
+
+#+begin_quote
+image encoder provides generic visual representations
+#+end_quote
+
+** p. 2
+#+begin_quote
+these models rely heavily on image annotations as labeled vectors and do not bake in knowledge of free-form human natural language, hindering their application to downstream tasks that involving both vision and language modalities.
+#+end_quote
+
+#+begin_quote
+he resulting dual-encoder models can additionally encode textual embeddings to the same latent space, enabling new crossmodal alignment capabilities such as zero-shot image classification and image-text retrieval
+#+end_quote
+
+#+begin_quote
+due to missing joint components to learn fused image and text representations.
+#+end_quote
+
+#+begin_quote
+they do not produce text-only representations aligned with image embeddings, thereby being less feasible and efficient for crossmodal alignment tasks.
+#+end_quote
+
+#+begin_quote
+we unify single-encoder, dual-encoder and encoder-decoder paradigms, and train one image-text foundation model that subsumes the capabilities of all three approaches.
+#+end_quote
+
+#+begin_quote
+a modified encoder-decoder architecture trained with both contrastive loss and captioning (generative) loss
+#+end_quote
+
+#+begin_quote
+a unimodal decoder and a multimodal decoder.
+#+end_quote
+
+#+begin_quote
+contrastive learning for learning global representations and captioning for fine-grained region-level features
+#+end_quote
+
+** p. 3
+#+begin_quote
+large-scale annotated data
+#+end_quote
+
+#+begin_quote
+relies on pretrained object detection modules such as Fast(er) R-CNN
+#+end_quote
+
+#+begin_quote
+dual-encoder models pretrained with contrastive objectives on noisy image-text pairs can learn strong image and text representations for crossmodal alignment tasks and zero-shot image classification
+#+end_quote
+
+#+begin_quote
+we focus on training an image-text foundation model from scratch in a single pretraining stage to unify these approaches
+#+end_quote
+
+#+begin_quote
+CoCa only performs one forward and backward propagation for a batch of image-text pairs
+#+end_quote
+
+#+begin_quote
+CoCa is trained from scratch on the two objectives only
+#+end_quote
+
+#+begin_quote
+three foundation model families that utilize natural language supervision
+#+end_quote
+
+#+begin_quote
+ingle-encoder classification pretraining
+#+end_quote
+
+#+begin_quote
+dual-encoder contrastive learning
+#+end_quote
+
+#+begin_quote
+encoderdecoder image captioning
+#+end_quote
+
+#+begin_quote
+Contrastive Captioners (CoCa) that share the merits of both contrastive learning and image-to-caption generation under a simple architecture
+#+end_quote
+
+#+begin_quote
+CoCa models can quickly transfer to downstream tasks with zero-shot transfer or minimal task adaptation
+#+end_quote
+
+#+begin_quote
+the vocabulary of annotation texts is usually fixed
+#+end_quote
+
+** p. 4
+#+begin_quote
+the dual-encoder approach exploits noisy web-scale text descriptions and introduces a learnable text tower to encode free-form texts
+#+end_quote
+
+#+begin_quote
+the dual-encoder approach also learns an aligned text encoder that enables crossmodal alignment applications such as image-text retrieval and zero-shot image classification.
+#+end_quote
+
+#+begin_quote
+encoder-decoder is trained with teacher-forcing [41] to parallelize computation and maximize learning efficiency
+#+end_quote
+
+#+begin_quote
+CoCa encodes images to latent representations by a neural network encoder
+#+end_quote
+
+#+begin_quote
+ecodes texts with a causal masking transformer decoder
+#+end_quote
+
+** p. 5
+#+begin_quote
+CoCa omits cross-attention in the first half of the decoder layers to encode unimodal text representations
+#+end_quote
+
+# ---- end of Reading Room highlights ----

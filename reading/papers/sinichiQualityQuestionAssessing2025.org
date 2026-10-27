@@ -1,0 +1,253 @@
+:PROPERTIES:
+:ID:        14ee87a7-8c48-41f3-9114-98dfb5d1052f
+:ROAM_REFS: @sinichiQualityQuestionAssessing2025 https://doi.org/10.1111/psyp.70004
+:END:
+#+title: Quality in Question: Assessing the Accuracy of Four Heart Rate Wearables and the Implications for Psychophysiological Research
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Mohammadamin Sinichi, Martin J. Gevonden, Lydia Krabbendam
+- Published :: Psychophysiology · 2025
+- Read :: [[https://read.rbabtista.dev/papers/my/88KPGZPB/][Reading Room]] · [[zotero://select/library/items/88KPGZPB][Zotero]] · [[https://doi.org/10.1111/psyp.70004][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+Heart rate (HR) and heart rate variability (HRV) are two key measures with significant relevance in psychophysiological studies
+#+end_quote
+
+#+begin_quote
+seated rest, arithmetic task, recovery, slow-paced breathing, a neuropsychological task, posture manipulation by standing up
+#+end_quote
+
+#+begin_quote
+slow walking and stationary biking
+#+end_quote
+
+#+begin_quote
+compared against a criterion electrocardiography device, the Vrije Universiteit Ambulatory Monitoring System (VU-AMS)
+#+end_quote
+
+** p. 2
+#+begin_quote
+empirical evidence that resting-state HRV is associated with an array of cognitive functions
+#+end_quote
+
+#+begin_quote
+The gold standard method for HRV measurement is electrocardiography (ECG)
+#+end_quote
+
+#+begin_quote
+The distinct sharpness and amplitude of the R-peak make it the landmark of choice for algorithms to identify and calculate the interbeat interval (IBI)
+#+end_quote
+
+#+begin_quote
+some metrics are valued for very specific use cases in research and clinical practice.
+#+end_quote
+
+#+begin_quote
+While ECG is accurate, its reliance on patches and wired connections with wet electrodes on the thorax poses practical limitations,
+#+end_quote
+
+#+begin_quote
+The maximum blood volume in the PPG waveform is detected as the systolic peak, allowing for calculations of IBIs.
+#+end_quote
+
+#+begin_quote
+research-grade devices are primarily marketed to professional clients, typically offer access to signal-level data,
+#+end_quote
+
+#+begin_quote
+It does not imply adherence to data quality or research validation standards set by any regulation, as no such standards currently exist.
+#+end_quote
+
+#+begin_quote
+One such limitation is that the waveform of PPG is more blunted than the pronounced, high-amplitude R peaks observed in ECG.
+#+end_quote
+
+#+begin_quote
+increases susceptibility to movement artifacts
+#+end_quote
+
+#+begin_quote
+particularly in cases of darker skin tones
+#+end_quote
+
+** p. 3
+#+begin_quote
+it is crucial to properly validate PPG-based heart rate sensors before using them in research.
+#+end_quote
+
+#+begin_quote
+HRV outcome measures, especially those influenced by high frequency, should be used with caution due to their susceptibility to larger errors.
+#+end_quote
+
+#+begin_quote
+highlight the fact that PPG wearables tend to have reduced accuracy when the subject is in motion.
+#+end_quote
+
+#+begin_quote
+While most consumergrade devices on the market only offer aggregated HR or HRV values (e.g., averages over a minute) or require a paid SDK to access higher resolution data, the devices chosen in this study by default can transmit a time series of detected IBIs via Bluetooth.
+#+end_quote
+
+#+begin_quote
+this study focuses on the validation of the IBI-level data.
+#+end_quote
+
+** p. 4
+#+begin_quote
+laboratory-like settings with no movement for resting-state HRV measurement, cognitive task conditions common in psychophysiological testing, slow-paced breathing, stress induction, posture manipulation, and ambulatory-like settings involving slow-paced walking and stationary biking.
+#+end_quote
+
+** p. 5
+#+begin_quote
+VU-AMS 5 fs samples ECG at a rate of 1000 Hz with a 16-bit resolution.
+#+end_quote
+
+#+begin_quote
+To align with the analyses for the other three devices, this study solely validates the IBIs detected through the device's proprietary peak detection algorithm, not the quality of the underlying PPG signal.
+#+end_quote
+
+** p. 6
+#+begin_quote
+Participants performed a series of tasks in a fixed order: sitting, arithmetic task, recovery phase, standing, slow-paced breathing, emotional go/no-go task, slowwalking, and stationary biking.
+#+end_quote
+
+#+begin_quote
+a breathing pacer
+#+end_quote
+
+** p. 7
+#+begin_quote
+This included Karlsson artifact correction and the removal of physiologically implausible data with linear interpolation.
+#+end_quote
+
+#+begin_quote
+These beats were visually inspected within their surrounding 10-s time window and if necessary, the R-peaks were manually adjusted.
+#+end_quote
+
+#+begin_quote
+Subsequently, the time series from all devices were synchronized by maximizing the crosscorrelation through visual inspection and manual adjustments.
+#+end_quote
+
+#+begin_quote
+outlier and ectopic beats preprocessing
+#+end_quote
+
+#+begin_quote
+First, IBIs shorter than 300 ms or longer than 2000 ms were removed from the segments and were linearly interpolated.
+#+end_quote
+
+#+begin_quote
+to further identify and isolate the outliers, we adopted a personalized approach by employing the Karlsson method
+#+end_quote
+
+#+begin_quote
+We initially set a custom removal threshold of 0.25
+#+end_quote
+
+#+begin_quote
+Each IBI was then compared with this mean. If the absolute difference between the current IBI and the mean exceeded 0.25 (the threshold) of this mean, the IBI was flagged as an outlier, removed, and linearly interpolated. Both types of outliers that were either detected with the 300–2000 threshold or with the Karlsson method are referred to as artifacts throughout this manuscript.
+#+end_quote
+
+#+begin_quote
+Therefore, our goal was to adjust the custom removing threshold to avoid identifying outliers or ectopic beats in the criterion time series, while still being able to detect them in other devices.
+#+end_quote
+
+** p. 8
+#+begin_quote
+the number of detected IBIs in that segment deviated by more than 30% from the criterion device
+#+end_quote
+
+#+begin_quote
+the number of detected artifacts in the segment exceeded 30% of the detected IBIs in that segment
+#+end_quote
+
+#+begin_quote
+These data were first converted from Analog to Digital converter (ADC) format
+#+end_quote
+
+#+begin_quote
+Mean Arctangent Absolute Percentage Error,
+#+end_quote
+
+#+begin_quote
+regression analysis
+#+end_quote
+
+#+begin_quote
+BlandAltman analysis
+#+end_quote
+
+** p. 17
+#+begin_quote
+it is recommended to use an ECG device to ensure a high signal-to-noise ratio
+#+end_quote
+
+#+begin_quote
+All these factors contribute to the sources of artifacts discussed above,
+#+end_quote
+
+** p. 18
+#+begin_quote
+First, the location of the device impacts data quality
+#+end_quote
+
+#+begin_quote
+In our study, sensors on the earlobe appeared to outperform those on the wrist and arm.
+#+end_quote
+
+#+begin_quote
+Second, PPG fiducial point detection is inherently more challenging compared to the sharp R peaks of ECG signals
+#+end_quote
+
+#+begin_quote
+the device's sampling rate is another critical factor
+#+end_quote
+
+#+begin_quote
+the peak detection algorithms and signal pre-processing methods used by devices vary, leading to different results.
+#+end_quote
+
+#+begin_quote
+the type of LED used in the device has its own advantages and disadvantages, which researchers need to weigh based on their specific research objectives and target population.
+#+end_quote
+
+#+begin_quote
+the BMI of participants can also affect the quality of PPG signals (Yi et al. 2013), as the presence of adipose tissue influences the ability of the sensor to capture reliable data.
+#+end_quote
+
+#+begin_quote
+Currently, no regulations or standardized protocols define the criteria for labeling a device as research-grade, leaving no guarantee that such devices provide reliable data quality.
+#+end_quote
+
+#+begin_quote
+by reporting the number of artifacts as a fraction of the detected beats (a signal-to-noise ratio).
+#+end_quote
+
+#+begin_quote
+important limitation of devices' peak detection algorithm that researchers need to take into account.
+#+end_quote
+
+** p. 19
+#+begin_quote
+are encouraged to incorporate visual inspection into their pre-processing pipeline
+#+end_quote
+
+#+begin_quote
+it is known from studies that one source of inaccuracy in PPG wearables might be skin color
+#+end_quote
+
+#+begin_quote
+the pre-processing approach used in our study may influence the results
+#+end_quote
+
+#+begin_quote
+It is crucial to consider that different methods for handling outliers and cleaning data could lead to slightly varied outcomes, especially for HRV measures
+#+end_quote
+
+#+begin_quote
+Several other studies have consistently shown that PPG devices perform poorly under conditions with movements
+#+end_quote
+
+# ---- end of Reading Room highlights ----

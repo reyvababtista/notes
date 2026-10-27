@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:        fd4a6ee8-fb62-4056-a128-e691deb2169b
+:ROAM_REFS: @afzaliMachinelearningpredictionadolescent2019 https://doi.org/10.1111/add.14504
+:END:
+#+title: Machine‐learning prediction of adolescent alcohol use: a cross‐study, cross‐cultural validation
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Mohammad H. Afzali, Matthew Sunderland, Sherry Stewart and 5 others
+- Published :: Addiction · 2019
+- Read :: [[https://read.rbabtista.dev/papers/my/KFNR836M/][Reading Room]] · [[zotero://select/library/items/KFNR836M][Zotero]] · [[https://doi.org/10.1111/add.14504][DOI]]
+
+* Highlights
+** p. 4
+#+begin_quote
+Machine-learning algorithms include a set of predictive techniques, which are particularly useful when there are a large number of predictor variables (i.e., high-dimensional) and the focus is on the generalizability and reliability of prediction[24].
+#+end_quote
+
+#+begin_quote
+Guidelines from the National Institute on Drug Abuse (NIDA) highlight machine-learning as “the most promising approach to identify predictive markers for psychiatric disorders and classify psychiatric populations with high-dimensional data”[25]
+#+end_quote
+
+#+begin_quote
+Another major limitation of the machine-learning studies in the domain of psychopathology is the lack of studies investigating the cross-sample generalizability of predictive models (i.e. gold standard of using a completely independent test set)
+#+end_quote
+
+** p. 5
+#+begin_quote
+such studies should be capable of identifying adolescent alcohol users based on early predictive characteristics derived from another sample of participants.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

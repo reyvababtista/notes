@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:        3bd139cf-a769-4b87-b00d-eb41c72253ef
+:ROAM_REFS: @zhaoLeveragingMachineLearning2026 https://doi.org/10.35946/arcr.v46.1.03
+:END:
+#+title: Leveraging Machine Learning to Advance Alcohol Research: Current Applications, Challenges, and Opportunities
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Q Zhao
+- Published :: Alcohol Research: Current Reviews · 2026
+- Read :: [[https://read.rbabtista.dev/papers/my/7HRMGVLG/][Reading Room]] · [[zotero://select/library/items/7HRMGVLG][Zotero]] · [[https://doi.org/10.35946/arcr.v46.1.03][DOI]]
+
+* Highlights
+** p. 7
+#+begin_quote
+Predicting alcohol consumption patterns that did not meet the criteria for AUD was another task frequently investigated by machine learning models
+#+end_quote
+
+#+begin_quote
+Despite the potential, this prediction task was associated with the lowest median AUC (71%) among all prediction outcomes. One reason is that treatment response often is assessed using nonstandardized subjective measures (e.g., craving scales and self-reported relapse) that are known to exhibit low test-retest reliability and high individual variability.
+#+end_quote
+
+** p. 8
+#+begin_quote
+In contrast to neuroimaging studies, neuropsychological assessments, self-reports, and demographic variables (e.g., alcohol use history, age of onset, or family history) are more proximally aligned with AUD outcomes and easier to collect, often translating to stronger predictive accuracy.
+#+end_quote
+
+#+begin_quote
+By seamlessly integrating these diverse information sources, the reviewed studies consistently indicated that multimodal machine learning models not only provide a more comprehensive representation of individual differences in alcohol-related outcomes but also enhance prediction accuracy and generalizability compared to single-modal models.
+#+end_quote
+
+** p. 10
+#+begin_quote
+Beyond modeling confounding effects, six of the 110 articles reviewed here explicitly mentioned the limitation that the adopted machine learning approach could only reveal statistical association between predictors and outcome but could not reveal causality between them.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

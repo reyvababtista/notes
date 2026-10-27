@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:        be0a1876-3d21-44f2-b313-a59b55a54f5f
+:ROAM_REFS: @botarealworlddatasetgroup2024 https://doi.org/10.1038/s41597-023-02905-6
+:END:
+#+title: A real-world dataset of group emotion experiences based on physiological data
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Patrícia Bota, Joana Brito, Ana Fred and 2 others
+- Published :: Scientific Data · 2024
+- Read :: [[https://read.rbabtista.dev/papers/my/Z8ZTMP54/][Reading Room]] · [[zotero://select/library/items/Z8ZTMP54][Zotero]] · [[https://doi.org/10.1038/s41597-023-02905-6][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+Emotion recognition with physiological data shows promising results in controlled experiments but lacks generalization to real-world settings
+#+end_quote
+
+#+begin_quote
+380 h+ of data from 190+ subjects
+#+end_quote
+
+** p. 2
+#+begin_quote
+we fill this gap by providing a labeled naturalistic dataset designed for group emotion recognition — the G-REx dataset.
+#+end_quote
+
+#+begin_quote
+we collected data from over 190+ subjects, covering 31 movie sessions and more than 380 hours of physiological data.
+#+end_quote
+
+#+begin_quote
+Physiological signals such as EDA and PPG can bypass these constraints since they are acquired by very small sensors through a single contact with the skin in unobtrusive places such as the wrist or hand.
+#+end_quote
+
+#+begin_quote
+Other physiological signals such as EEG or ECG also contain information for emotion recognition.
+#+end_quote
+
+** p. 3
+#+begin_quote
+This has been validated in the literature with the electrodermal level increasing linearly with arousal level
+#+end_quote
+
+** p. 4
+#+begin_quote
+we ask for the subject to annotate only selected segments of a few seconds (20 seconds) where events (onset events with high amplitude) were detected on the subjects EDA data (segment of [onset - 5 seconds, onset + 15 seconds])
+#+end_quote
+
+#+begin_quote
+the 5 seconds previous to the onset was taken from the literature reporting the latency period of emotional stimuli between 1 to 5 seconds
+#+end_quote
+
+#+begin_quote
+Butter low-pass 4th order and 5 cut-off frequency, 0.75 * sampling rate boxzen kernel smoother
+#+end_quote
+
+#+begin_quote
+20 seconds boxzen kernel
+#+end_quote
+
+#+begin_quote
+merge events with onsets separated for less than 32 seconds
+#+end_quote
+
+#+begin_quote
+This leads to the annotation of a lower number of segments (lower complexity) ordered by their emotional importance (more time-efficient) albeit more meaningful (hence potentially more informative).
+#+end_quote
+
+#+begin_quote
+the self-report the annotation platform relies on the SAM assessment technique
+#+end_quote
+
+** p. 9
+#+begin_quote
+our technical validation of the physiological signals is performed for the two types of data collected: the entire data in a session format, and 20-second annotated segments
+#+end_quote
+
+# ---- end of Reading Room highlights ----

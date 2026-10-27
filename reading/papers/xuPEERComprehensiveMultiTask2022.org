@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:        228e8ab9-c6e3-46ee-b7e4-742a0e137aea
+:ROAM_REFS: @xuPEERComprehensiveMultiTask2022 https://doi.org/10.48550/arxiv.2206.02096
+:END:
+#+title: PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Minghao Xu, Zuobai Zhang, Jiarui Lu and 5 others
+- Published :: arXiv · 2022
+- Read :: [[https://read.rbabtista.dev/papers/my/S28ERPPU/][Reading Room]] · [[zotero://select/library/items/S28ERPPU][Zotero]] · [[https://doi.org/10.48550/arxiv.2206.02096][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+there is a lack of a standard benchmark to evaluate the performance of different methods
+#+end_quote
+
+# ---- end of Reading Room highlights ----

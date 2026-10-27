@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6cd880f4-0094-4663-bb36-503d8f503b83
+:END:
+#+title: Reading list
+#+filetags: :reading:
+
+# Reading Room rewrites this whole file when the reading list changes.

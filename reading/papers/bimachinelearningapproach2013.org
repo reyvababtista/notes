@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:        81f91283-df87-417f-9653-5d8bef4ceda0
+:ROAM_REFS: @bimachinelearningapproach2013 https://doi.org/10.1145/2508037.2508053
+:END:
+#+title: A machine learning approach to college drinking prediction and risk factor identification
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Jinbo Bi, Jiangwen Sun, Yu Wu and 2 others
+- Published :: ACM Transactions on Intelligent Systems and Technology · 2013
+- Read :: [[https://read.rbabtista.dev/papers/my/J2BFHZB2/][Reading Room]] · [[zotero://select/library/items/J2BFHZB2][Zotero]] · [[https://doi.org/10.1145/2508037.2508053][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+Our approach aims to discover knowledge, from multiwave cohort-sequential daily data, which may or may not align with the original hypothesis but quantifies predictive models with higher likelihood to generalize to new samples.
+#+end_quote
+
+#+begin_quote
+We first propose a so-called temporally-correlated support vector machine to construct a classifier as a function of daily moods, stress, and drinking expectancies to distinguish days with nighttime binge drinking from days without for individual students.
+#+end_quote
+
+#+begin_quote
+where cluster analysis is used to identify drinking patterns based on averaged daily drinking behavior
+#+end_quote
+
+#+begin_quote
+feature selection is used to identify risk factors associated with each pattern
+#+end_quote
+
+** p. 2
+#+begin_quote
+the term “binge” often refers to as consuming five or more standard drinks per occasion for men and four or more drinks per occasion for women
+#+end_quote
+
+** p. 3
+#+begin_quote
+However, although the daily diary itself may capture the daily dynamics of a process, the statistical methods used to analyze the data seldom examine the dynamics at the daily level.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

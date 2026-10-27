@@ -1,0 +1,86 @@
+:PROPERTIES:
+:ID:        d7e8aac5-6ca0-4752-85ad-e8d7055fcaca
+:ROAM_REFS: @vandoorenEmotionalsweatingbody2012 https://doi.org/10.1016/j.physbeh.2012.01.020
+:END:
+#+title: Emotional sweating across the body: Comparing 16 different skin conductance measurement locations
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Marieke Van Dooren, J.J.G. (Gert-Jan) De Vries, Joris H. Janssen
+- Published :: Physiology & Behavior · 2012
+- Read :: [[https://read.rbabtista.dev/papers/my/UP8EXP5L/][Reading Room]] · [[zotero://select/library/items/UP8EXP5L][Zotero]] · [[https://doi.org/10.1016/j.physbeh.2012.01.020][DOI]]
+
+* Highlights
+** p. 298
+#+begin_quote
+Findings indicated foot, fingers and shoulders being most responsive, whereas arm, back, armpit, and thighbone were least responsive.
+#+end_quote
+
+#+begin_quote
+several different modalities to measure emotions, including physiological signals, speech, facial expressions and body posture
+#+end_quote
+
+#+begin_quote
+skin conductance (SC) is frequently used to assess emotional arousal
+#+end_quote
+
+#+begin_quote
+Skin conductance (also referred to as electrodermal activity
+#+end_quote
+
+#+begin_quote
+refers to the varying electrical properties of the skin in response to sweat secretion by sweat glands
+#+end_quote
+
+#+begin_quote
+we hypothesize that also body locations other than the traditional palmar recording location can show an emotional response in SC recordings.
+#+end_quote
+
+** p. 299
+#+begin_quote
+the present study compares 16 different SC recordings obtained from participants whilst watching emotional film clips
+#+end_quote
+
+#+begin_quote
+emotions are operationalized in a spatial model with emotional valence varying from positive (pleasant) to negative (unpleasant) and with emotional arousal (intensity) varying from calm to excited.
+#+end_quote
+
+#+begin_quote
+The quality of the 16 recording positions
+#+end_quote
+
+#+begin_quote
+refrain from moving during the entire experiment to avoid artifacts in the recordings and to limit skin conductance changes due to physical activity
+#+end_quote
+
+#+begin_quote
+A rest recording was started for 3 min with subject's eyes open
+#+end_quote
+
+#+begin_quote
+Ratings were provided verbally to the experimenter.
+#+end_quote
+
+#+begin_quote
+a measurement of 3 min rest was made during which subjects sat quietly with eyes open.
+#+end_quote
+
+** p. 300
+#+begin_quote
+It was not our goal to compare the skin conductance for different emotions. Instead, the video fragments were only used to generate variation in the skin conductance signal due to emotions.
+#+end_quote
+
+#+begin_quote
+Therefore, the order of the videos was kept constant keeping cross-over effects between conditions fixed.
+#+end_quote
+
+#+begin_quote
+the strength of their negative feelings, positive feelings and level of excitement on a 7-point Likert scale ranging from very weak to very strong.
+#+end_quote
+
+** p. 302
+#+begin_quote
+the relation between sweat gland density and electrodermal activity [22] depends on the measures being used to quantify the skin conductance responsiveness.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:        10943430-a491-46f2-9b4f-85e7a78d551e
+:ROAM_REFS: @nemcovaBrnoUniversityTechnology2021 https://doi.org/10.1155/2021/3453007
+:END:
+#+title: Brno University of Technology Smartphone PPG Database (BUT PPG): Annotated Dataset for PPG Quality Assessment and Heart Rate Estimation
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Andrea Nemcova, Enikö Vargova, Radovan Smisek and 3 others
+- Published :: BioMed Research International · 2021
+- Read :: [[https://read.rbabtista.dev/papers/my/NE5TDHZ2/][Reading Room]] · [[zotero://select/library/items/NE5TDHZ2][Zotero]] · [[https://doi.org/10.1155/2021/3453007][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+48 10-second recordings of PPGs and associated electrocardiographic (ECG)
+#+end_quote
+
+#+begin_quote
+12 subjects (6 female, 6 male)
+#+end_quote
+
+#+begin_quote
+ach PPG signal includes annotation of quality created manually by biomedical experts and reference HR.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

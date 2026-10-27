@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:        eadb1fda-5b76-4581-8552-f308b6c79e34
+:ROAM_REFS: @baeMobilephonesensors2018 https://doi.org/10.1016/j.addbeh.2017.11.039
+:END:
+#+title: Mobile phone sensors and supervised machine learning to identify alcohol use events in young adults: Implications for just-in-time adaptive interventions
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Sangwon Bae, Tammy Chung, Denzil Ferreira and 2 others
+- Published :: Addictive Behaviors · 2018
+- Read :: [[https://read.rbabtista.dev/papers/g5555152/47SXH3K7/][Reading Room]] · [[zotero://select/groups/5555152/items/47SXH3K7][Zotero]] · [[https://doi.org/10.1016/j.addbeh.2017.11.039][DOI]]
+
+* Highlights
+None yet.
+
+# ---- end of Reading Room highlights ----

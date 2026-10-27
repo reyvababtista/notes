@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:        ade73ea7-3f39-4439-bebe-8f5f83f134a1
+:ROAM_REFS: @fulfordPassivesensingbehavioral2025 https://doi.org/10.1037/abn0001035
+:END:
+#+title: Passive sensing of behavioral markers of psychopathology: Introduction to the special issue.
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Daniel Fulford, Nicholas C. Jacobson
+- Published :: Journal of Psychopathology and Clinical Science · 2025
+- Read :: [[https://read.rbabtista.dev/papers/my/FDBBNABB/][Reading Room]] · [[zotero://select/library/items/FDBBNABB][Zotero]] · [[https://doi.org/10.1037/abn0001035][DOI]]
+
+* Highlights
+** p. 855
+#+begin_quote
+Despite the opportunities passive sensor data provide, there is limited empirical support for the psychometrics and potential utility of these data for enhancing our understanding of psychopathology.
+#+end_quote
+
+** p. 856
+#+begin_quote
+collect intensive longitudinal data in near-real-time continuous ways within “life as it is lived,”
+#+end_quote
+
+#+begin_quote
+passively sensed physical activity was linked to higher EMA-reported energetic arousal in all groups
+#+end_quote
+
+#+begin_quote
+passively sensed mobility (i.e., distance traveled) explained unique variance in these outcomes.
+#+end_quote
+
+#+begin_quote
+Passive sensing did not help detect mood episodes; self-rated mood, assessed via daily diary, outperformed sensing parameters in predicting current episodes.
+#+end_quote
+
+#+begin_quote
+GPS-derived daily activity space
+#+end_quote
+
+#+begin_quote
+synthesis of quantitative data gathered using passive sensors
+#+end_quote
+
+#+begin_quote
+Within the SMI group, greater restrictions in activity space (more time at home) and less variability in locations visited (lower normalized entropy) were associated with a higher burden of negative and depressive symptoms.
+#+end_quote
+
+#+begin_quote
+but that the connection is complex
+#+end_quote
+
+#+begin_quote
+The lack of change in mobility metrics, despite self-reported symptom improvement, suggests that passively sensed behavior does not always mirror perceived clinical changes, which suggests that there is a need for greater work examining the times in which passively sensed activity patterns reflect or diverge from perceptions of psychopathology states and treatment response.
+#+end_quote
+
+** p. 857
+#+begin_quote
+Although they found some passive markers were correlated with EMA reports of the same construct, depression symptoms did not moderate identified associations.
+#+end_quote
+
+#+begin_quote
+Once symptoms pass a clinical threshold, correspondence between active and passive data may shift, at least for certain metrics.
+#+end_quote
+
+#+begin_quote
+examined the dynamics of daily typing on smartphone apps as markers of cognition in mood disorders.
+#+end_quote
+
+#+begin_quote
+What, exactly, it is telling us remains a critical area for future research.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

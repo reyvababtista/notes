@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:        b5ea95c3-3283-42bd-90a4-12734b348726
+:ROAM_REFS: @knolSmartphonekeyboarddynamics2024 https://doi.org/10.1038/s41746-024-01048-1
+:END:
+#+title: Smartphone keyboard dynamics predict affect in suicidal ideation
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Loran Knol, Anisha Nagpal, Imogen E. Leaning and 7 others
+- Published :: npj Digital Medicine · 2024
+- Read :: [[https://read.rbabtista.dev/papers/my/8V5Y32HJ/][Reading Room]] · [[zotero://select/library/items/8V5Y32HJ][Zotero]] · [[https://doi.org/10.1038/s41746-024-01048-1][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+the integration of its modalities is not trivial due to high dimensionalities and discrepancies in sampling frequencies.
+#+end_quote
+
+#+begin_quote
+n integrated pipeline that solves these issues by transforming all modalities to the same time unit, applying temporal independent component analysis (ICA) to high-dimensional modalities, and fusing the modalities with linear mixed-effects models.
+#+end_quote
+
+#+begin_quote
+EMA might still yield a time series that is too sparse to accurately capture the underlying dynamics in moment-to-moment fluctuations in emotion and affect
+#+end_quote
+
+#+begin_quote
+Therefore, the development of dense, passive, and unobtrusive smartphone measures that predict mental state is receiving increasing attention
+#+end_quote
+
+#+begin_quote
+Quantifying behavioural phenotypes using data collected unobtrusively from wearable digital devices is referred to as digital phenotyping
+#+end_quote
+
+#+begin_quote
+It collects keyboard typing metadata (e.g., typing speed) as well as accelerometery data (movement and orientation while typing)
+#+end_quote
+
+#+begin_quote
+typing speed predicts cognitive processing speed and shows an age-modulated, diurnal pattern
+#+end_quote
+
+#+begin_quote
+the inception of this new technology requires analytical workflows that can extract meaningful behavioural phenotypes from the underlying timeseries.
+#+end_quote
+
+#+begin_quote
+it is often necessary to integrate data modalities that are acquired at different sampling frequencies
+#+end_quote
+
+** p. 2
+#+begin_quote
+study that aims to validate digital phenotyping measures of mental health must first address temporal misalignment.
+#+end_quote
+
+#+begin_quote
+additional problem arises when data are high-dimensional, making dimensionality reduction techniques desirable.
+#+end_quote
+
+#+begin_quote
+Clustering approaches are an additional option for tackling high dimensionality in multivariate time series
+#+end_quote
+
+#+begin_quote
+applying temporal independent component analysis (ICA) to the high-dimensional modalities
+#+end_quote
+
+#+begin_quote
+transforming all modalities to the same time unit through resampling or aggregation
+#+end_quote
+
+#+begin_quote
+then fusing the modalities through linear mixed-effects models as in prior work
+#+end_quote
+
+#+begin_quote
+we apply it to integrate high-quality self-report data with digital phenotyping data from the CLEAR-3 trial
+#+end_quote
+
+#+begin_quote
+BiAffect iOS keyboard
+#+end_quote
+
+# ---- end of Reading Room highlights ----

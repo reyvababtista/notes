@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:        9532c83c-49fe-4941-af2b-f296a9a4c876
+:ROAM_REFS: @onnelaHarnessingSmartphoneBasedDigital2016 https://doi.org/10.1038/npp.2016.7
+:END:
+#+title: Harnessing Smartphone-Based Digital Phenotyping to Enhance Behavioral and Mental Health
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Jukka-Pekka Onnela, Scott L. Rauch
+- Published :: Neuropsychopharmacology · 2016
+- Read :: [[https://read.rbabtista.dev/papers/g5555152/8JFNSKQ2/][Reading Room]] · [[zotero://select/groups/5555152/items/8JFNSKQ2][Zotero]] · [[https://doi.org/10.1038/npp.2016.7][DOI]]
+
+* Highlights
+None yet.
+
+# ---- end of Reading Room highlights ----

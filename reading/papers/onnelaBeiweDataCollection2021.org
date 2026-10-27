@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:        e1e767b0-39eb-499b-b56c-a2727ff86002
+:ROAM_REFS: @onnelaBeiweDataCollection2021 https://doi.org/10.21105/joss.03417
+:END:
+#+title: Beiwe: A data collection platform for high-throughput digital phenotyping
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Jukka-Pekka Onnela, Caleb Dixon, Keary Griffin and 6 others
+- Published :: Journal of Open Source Software · 2021
+- Read :: [[https://read.rbabtista.dev/papers/my/U63Y45LB/][Reading Room]] · [[zotero://select/library/items/U63Y45LB][Zotero]] · [[https://doi.org/10.21105/joss.03417][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+The standard approach to learning about something as complex as human behavior is to use surveys, which are cross-sectional, subjective, and often burdensome.
+#+end_quote
+
+#+begin_quote
+We coined the term Digital Phenotyping to refer to the “moment-by-moment quantification of the individual-level human phenotype in situ using
+#+end_quote
+
+** p. 2
+#+begin_quote
+data from personal digital devices, in particular smartphones”
+#+end_quote
+
+** p. 3
+#+begin_quote
+It’s worth pointing out that the back-end deployment is non-trivial, and among other things it requires creating an AWS account, setting up a user with sufficient permissions, generating credentials for programmatic access, obtaining a domain name, and creating a Sentry account for monitoring errors.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

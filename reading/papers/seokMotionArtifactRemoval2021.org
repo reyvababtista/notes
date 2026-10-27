@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:        2a5cbd46-1038-4dc1-96b1-af87cf658b8a
+:ROAM_REFS: @seokMotionArtifactRemoval2021 https://doi.org/10.3389/felec.2021.685513
+:END:
+#+title: Motion Artifact Removal Techniques for Wearable EEG and PPG Sensor Systems
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Dongyeol Seok, Sanghyun Lee, Minjae Kim and 2 others
+- Published :: Frontiers in Electronics · 2021
+- Read :: [[https://read.rbabtista.dev/papers/my/UYLQBXUD/][Reading Room]] · [[zotero://select/library/items/UYLQBXUD][Zotero]] · [[https://doi.org/10.3389/felec.2021.685513][DOI]]
+
+* Highlights
+** p. 10
+#+begin_quote
+the effects of environmental light, movement of PPG sensors on skins, electrical noise from sensors, vascular dynamics by physiological phenomena, and the signal of interest created by blood pulsation
+#+end_quote
+
+#+begin_quote
+If the event of motion has no or limited impact on blood pulsation, then PPG and motion artifacts are considered as independent.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

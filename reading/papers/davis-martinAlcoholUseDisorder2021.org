@@ -1,0 +1,147 @@
+:PROPERTIES:
+:ID:        45ac8e07-33e4-4bb0-b5a3-65be8e5b876e
+:ROAM_REFS: @davis-martinAlcoholUseDisorder2021 https://doi.org/10.3389/fpsyt.2021.642813
+:END:
+#+title: Alcohol Use Disorder in the Age of Technology: A Review of Wearable Biosensors in Alcohol Use Disorder Treatment
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Rachel E. Davis-Martin, Sheila M. Alessi, Edwin D. Boudreaux
+- Published :: Frontiers in Psychiatry · 2021
+- Read :: [[https://read.rbabtista.dev/papers/my/GWAFJLA9/][Reading Room]] · [[zotero://select/library/items/GWAFJLA9][Zotero]] · [[https://doi.org/10.3389/fpsyt.2021.642813][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+A large benefit of wearable biosensors for this purpose is they provide continuous readings in a passive manner compared with the gold standard measure of blood alcohol content (BAC) traditionally measured intermittently by breathalyzer or blood draw.
+#+end_quote
+
+#+begin_quote
+two primary means of measuring intoxication with biosensors: gait and sweat.
+#+end_quote
+
+** p. 2
+#+begin_quote
+Research using novel technology to address public health problems has increased exponentially in the twenty first century. Broadly known as digital health, this area of research explores the use of mobile and computer software applications and wearable biosensor devices to better understand and treat health conditions
+#+end_quote
+
+#+begin_quote
+Wearable biosensors are placed externally on the body and typically measure movement, sweat or skin conductance, heart rate, or temperature
+#+end_quote
+
+#+begin_quote
+AUD biosensor research literature, devices tested fall into two categories: (1) those designed specifically to detect alcohol use (e.g., identifying intoxication) and (2) those designed for primarily other purposes (e.g., physical activity) but are being explored in specific use cases related to alcohol.
+#+end_quote
+
+#+begin_quote
+In this review, we will summarize the use of wearable biosensors in clinical research of AUD treatments.
+#+end_quote
+
+#+begin_quote
+There are two primary means of measuring intoxication with biosensors: gait and sweat.
+#+end_quote
+
+#+begin_quote
+Gait is measured by locomotion on three axes
+#+end_quote
+
+#+begin_quote
+17
+#+end_quote
+
+#+begin_quote
+however, to date, research using these biosensors occurs exclusively in non-treatment samples and contexts.
+#+end_quote
+
+#+begin_quote
+As alcohol emanates from the bloodstream and diffuses through the skin, transdermal devices detect the amount of alcohol in sweat and interstitial fluid that then algorithmically correlates to BAC measured by blood draw or breathalyzer
+#+end_quote
+
+** p. 3
+#+begin_quote
+measuring transdermal alcohol content requires a baseline reading absent of any consumed alcohol.
+#+end_quote
+
+#+begin_quote
+Biosensors measuring changes in skin temperature and heart rate variability can supplement sweat and gait data to improve detection of alcohol consumption (17)
+#+end_quote
+
+#+begin_quote
+Coupled with GPS-based location data, these physiological data points can be used to determine proximity to places where someone might socially consume alcohol or purchase alcohol.
+#+end_quote
+
+#+begin_quote
+total transdermal alcohol content reported as grams of alcohol per deciliter of sweat (g/dl)
+#+end_quote
+
+#+begin_quote
+absorption rate or how quickly alcohol appears in the sweat reported as g/dl per hour,
+#+end_quote
+
+#+begin_quote
+elimination rate or how quickly alcohol leaves the sweat also reported as g/dL per hour
+#+end_quote
+
+#+begin_quote
+transdermal alcohol sensing technology allows for remote objective monitoring of alcohol use near continuously
+#+end_quote
+
+** p. 6
+#+begin_quote
+good feasibility and acceptability of the devices, suggesting that integration into treatment may be acceptable among patients.
+#+end_quote
+
+#+begin_quote
+using wearable devices eliminates the need for participants to undergo invasive blood draws or use a breathalyzer during their sessions, which may be more desirable
+#+end_quote
+
+#+begin_quote
+beginning to expand biosensor uses to include incorporating physiological data
+#+end_quote
+
+#+begin_quote
+expansion of novel uses for wearable biosensors in this domain of clinical research
+#+end_quote
+
+#+begin_quote
+Biosensor data could replace or supplement self-reported alcohol use in behavioral and cognitive behavioral treatments for AUD and inform more accurate and tailored treatment recommendations.
+#+end_quote
+
+#+begin_quote
+continuous monitoring of numerous physiological constructs using an additional biosensor like FitBit throughout pharmacotherapy could highlight interaction effects of alcohol and other substances on the effectiveness of the medicationassisted therapy
+#+end_quote
+
+#+begin_quote
+Just-In-Time Adaptive Interventions (JITAIs)
+#+end_quote
+
+#+begin_quote
+alcohol research that combined smartphone sensor data and ambulatory selfreports of alcohol use to build machine learning models to predict future high-risk drinking
+#+end_quote
+
+#+begin_quote
+natural language processing of online recovery forums and machine learning techniques were used to build models to automatically detect potential recovery problems, for potential for intervention
+#+end_quote
+
+#+begin_quote
+using biosensors to better understand and detect craving
+#+end_quote
+
+#+begin_quote
+Craving is marked by several physiological (e.g., heart rate, blood pressure, sweat, saliva) and emotional (e.g., anxiety and dysregulation) changes that biosensor data and complex machine learning algorithms may be able to measure and quantify in a clinically significant way
+#+end_quote
+
+#+begin_quote
+withdrawal syndrome
+#+end_quote
+
+** p. 7
+#+begin_quote
+measuring many physiological symptoms that occur in alcohol withdrawal (e.g., variable heart rate, proximal sweats, and changes in temperature).
+#+end_quote
+
+#+begin_quote
+Roberts W, McKee SA. Mobile alcohol biosensors and pharmacotherapy development research. Alcohol. (2019) 81:149–60. doi: 10.1016/j.alcohol.2018.07.012
+#+end_quote
+
+# ---- end of Reading Room highlights ----

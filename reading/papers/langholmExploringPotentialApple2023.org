@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:        7b84a217-0cc1-4f2a-83d7-74dbf5f25d40
+:ROAM_REFS: @langholmExploringPotentialApple2023 https://doi.org/10.1159/000530698
+:END:
+#+title: Exploring the Potential of Apple SensorKit and Digital Phenotyping Data as New Digital Biomarkers for Mental Health Research
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Carsten Langholm, Tobias Kowatsch, Sandra Bucci and 2 others
+- Published :: Digital Biomarkers · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/42VZQABW/][Reading Room]] · [[zotero://select/library/items/42VZQABW][Zotero]] · [[https://doi.org/10.1159/000530698][DOI]]
+
+* Highlights
+** p. 104
+#+begin_quote
+phone usage, messages usage, visits, device usage, and ambient light.
+#+end_quote
+
+** p. 105
+#+begin_quote
+Raw data permits novel analysis and the creation of new biomarkers with high clinical relevance. For example, by combining raw accelerometer and screen state (off/on) data from a smartphone, it is feasible to use algorithms that estimate sleep duration [11].
+#+end_quote
+
+#+begin_quote
+Patients and clinicians both receive weekly phenotyping summaries including correlations between mental health survey scores and processed behavioral metrics from digital phenotyping data (e.g., mood vs. time spent at home, anxiety vs. sleep duration, stress vs. steps). These digital biomarkers can build emotional self-awareness and facilitate discussion with the clinical team [14]
+#+end_quote
+
+#+begin_quote
+Anomaly detection models have demonstrated how aberrations in mindLAMP sensor data captured over months can provide early warning signs for relapse in people with serious mental illnesses
+#+end_quote
+
+#+begin_quote
+For example, correlations between digital phenotyping data and clinical outcomes may appear smaller than expected when investigated with larger sample sizes [17]
+#+end_quote
+
+# ---- end of Reading Room highlights ----

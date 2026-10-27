@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:        00a0fe21-758b-4a8d-9285-fde5cd6c86b8
+:ROAM_REFS: @zhangTROIKAGeneralFramework2015 https://doi.org/10.1109/tbme.2014.2359372
+:END:
+#+title: TROIKA: A General Framework for Heart Rate Monitoring Using Wrist-Type Photoplethysmographic Signals During Intensive Physical Exercise
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Zhilin Zhang, Zhouyue Pi, Benyuan Liu
+- Published :: IEEE Transactions on Biomedical Engineering · 2015
+- Read :: [[https://read.rbabtista.dev/papers/my/FYWE827J/][Reading Room]] · [[zotero://select/library/items/FYWE827J][Zotero]] · [[https://doi.org/10.1109/tbme.2014.2359372][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+reconstructing qualified reference signals is difficult when subjects are exercising.
+#+end_quote
+
+#+begin_quote
+Thus, in the presence of irregular and complicated hand movements, merely exploiting acceleration data may not gain large benefits.
+#+end_quote
+
+** p. 2
+#+begin_quote
+This work focuses on HR monitoring using wrist-type PPG signals when wearers perform intensive physical activities
+#+end_quote
+
+** p. 3
+#+begin_quote
+A large gap between a pulse oximeter and skin could make the spectral peak associated with HR buried in random spectral fluctuations
+#+end_quote
+
+# ---- end of Reading Room highlights ----

@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:        08837c73-5f41-444e-8c64-b8e3dc06acaa
+:ROAM_REFS: @ghamariReviewWearablePhotoplethysmography2018 https://doi.org/10.15406/ijbsbe.2018.04.00125
+:END:
+#+title: A review on wearable photoplethysmography sensors and their potential future applications in health care
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Mohammad Ghamari
+- Published :: International Journal of Biosensors & Bioelectronics · 2018
+- Read :: [[https://read.rbabtista.dev/papers/my/QYWYABIM/][Reading Room]] · [[zotero://select/library/items/QYWYABIM][Zotero]] · [[https://doi.org/10.15406/ijbsbe.2018.04.00125][DOI]]
+
+* Highlights
+** p. 198
+#+begin_quote
+These critical points can be used to detect and diagnose cardiac abnormalities.
+#+end_quote
+
+#+begin_quote
+Additionally, the APG correlates with the distensibility of the carotid artery, age, blood pressure, risk of coronary heart disease, and the presence of the atherosclerotic disorders.
+#+end_quote
+
+** p. 199
+#+begin_quote
+Respiratory rate is the number of breaths a person takes per minute while resting
+#+end_quote
+
+#+begin_quote
+Current devices used to determine respiratory rates include a nasal cannula and a chest band, but these methods can be harmful to the patient.
+#+end_quote
+
+#+begin_quote
+Respiratory rates are related to PPG in three ways: 1) The pulse wave amplitude is affected by the flexibility of the blood vessels, 2) there is a variation of the pulse envelope, and 3) a decrease in intrathoracic pressure can lead to increasing venous return during inspiration.
+#+end_quote
+
+#+begin_quote
+PPG could be used to extract or identify a respiratory trend embedded in physiological signals.82 There are three respiratoryinduced variations that can be extracted from a PPG; frequency, intensity, and amplitude.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

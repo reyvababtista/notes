@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:        d7b1d822-dd35-4fd5-a55c-8797d1fb73ed
+:ROAM_REFS: @chengGPT4GoodData2023 https://doi.org/10.48550/arxiv.2305.15038 http://arxiv.org/abs/2305.15038
+:END:
+#+title: Is GPT-4 a Good Data Analyst?
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Liying Cheng, Xingxuan Li, Lidong Bing
+- Published :: arXiv · 2023
+- Read :: [[https://read.rbabtista.dev/papers/g5555152/79BMUDNG/][Reading Room]] · [[zotero://select/groups/5555152/items/79BMUDNG][Zotero]] · [[https://doi.org/10.48550/arxiv.2305.15038][DOI]]
+
+* Highlights
+None yet.
+
+# ---- end of Reading Room highlights ----

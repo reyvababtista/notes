@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:        65fd6708-4ab3-4013-b3ce-fd1e1e7a8277
+:ROAM_REFS: @phanUnderstandingHeavyDrinking2020 https://doi.org/10.1145/3421937.3421992
+:END:
+#+title: Understanding Heavy Drinking at Night through Smartphone Sensing and Active Human Engagement
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Thanh-Trung Phan, Florian Labhart, Skanda Muralidhar, Daniel Gatica-Perez
+- Published :: Proceedings of the 14th EAI International Conference on Pervasive Computing Technologies for Healthcare · 2020
+- Read :: [[https://read.rbabtista.dev/papers/my/6NETYE9B/][Reading Room]] · [[zotero://select/library/items/6NETYE9B][Zotero]] · [[https://doi.org/10.1145/3421937.3421992][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+using a smartphone sensing dataset depicting about nightlife and drinking behaviors for 240 young adult participants.
+#+end_quote
+
+#+begin_quote
+automatically captured smartphone sensor data and manually contributed information including context data and photos.
+#+end_quote
+
+#+begin_quote
+most studies have focused on single drinking settings and overlooked the influence of sequences of drinking episodes
+#+end_quote
+
+** p. 2
+#+begin_quote
+The classification at night-level rather than at event-level (i.e classifying each drinking event), is motivated by the relevance of providing insights to users over the course of an entire drinking occasion. We believe this to be an important insight for users of such a framework as an alternative to real-time feedback.
+#+end_quote
+
+#+begin_quote
+how do mobile sensor data, manual context and image content differ between heavy and non-heavy drinking nights?
+#+end_quote
+
+#+begin_quote
+how can the different data sources be used to classify the two types of drinking nights?
+#+end_quote
+
+#+begin_quote
+nights were labeled based on the total number of “standard drinks” consumed over the course of the night.
+#+end_quote
+
+#+begin_quote
+Utilizing location data and timestamps, we segment nights into moving and episodes as anchors to aggregate mobile sensing features
+#+end_quote
+
+#+begin_quote
+some derived features of time, place, multiple mobile sensors, and image features are statistically significantly different for heavy and non-heavy drinking nights.
+#+end_quote
+
+#+begin_quote
+Participants tend to stay for shorter duration at a given location and change locations more frequently during heavy drinking nights
+#+end_quote
+
+#+begin_quote
+they are more likely to drink heavily when attending crowded locations
+#+end_quote
+
+#+begin_quote
+the time intervals between the first and the last drink on heavy nights are longer than on non-heavy nights
+#+end_quote
+
+#+begin_quote
+the number of drinks reported was greater outside private places for heavy drinking nights, while a greater number of drinks was reported on private places for non-heavy drinking nights
+#+end_quote
+
+** p. 10
+#+begin_quote
+nights were clustered within participants
+#+end_quote
+
+# ---- end of Reading Room highlights ----

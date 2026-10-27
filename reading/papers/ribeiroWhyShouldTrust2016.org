@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:        f634b342-4585-4d97-a529-b8b05a5f957c
+:ROAM_REFS: @ribeiroWhyShouldTrust2016 https://doi.org/10.48550/arxiv.1602.04938
+:END:
+#+title: "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
+- Published :: arXiv · 2016
+- Read :: [[https://read.rbabtista.dev/papers/my/E9NFVPC6/][Reading Room]] · [[zotero://select/library/items/E9NFVPC6][Zotero]] · [[https://doi.org/10.48550/arxiv.1602.04938][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+if the users do not trust a model or a prediction, they will not use it
+#+end_quote
+
+#+begin_quote
+Currently, models are evaluated using accuracy metrics on an available validation dataset. However, real-world data is often significantly different, and further, the evaluation metric may not be indicative of the product’s goal.
+#+end_quote
+
+#+begin_quote
+By “explaining a prediction”, we mean presenting textual or visual artifacts that provide qualitative understanding of the relationship between the instance’s components (e.g. words in text, patches in an image) and the model’s prediction.
+#+end_quote
+
+** p. 2
+#+begin_quote
+evaluation on validation data may not correspond to performance “in the wild”, as practitioners often overestimate the accuracy of their models [20]
+#+end_quote
+
+#+begin_quote
+An essential criterion for explanations is that they must be interpretable, i.e., provide qualitative understanding between the input variables and the response.
+#+end_quote
+
+** p. 3
+#+begin_quote
+Another essential criterion is local fidelity. Although it is often impossible for an explanation to be completely faithful unless it is the complete description of the model itself, for an explanation to be meaningful it must at least be locally faithful, i.e. it must correspond to how the model behaves in the vicinity of the instance being predicted.
+#+end_quote
+
+#+begin_quote
+features that are globally important may not be important in the local context, and vice versa
+#+end_quote
+
+#+begin_quote
+an explainer should be able to explain any model, and thus be model-agnostic (i.e. treat the original model as a black box)
+#+end_quote
+
+# ---- end of Reading Room highlights ----

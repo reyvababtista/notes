@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:        077e2d90-7d5c-41ff-a4da-0c474a54b3fd
+:ROAM_REFS: @zhouOneRingRule2023 https://doi.org/10.1145/3576842.3582382
+:END:
+#+title: One Ring to Rule Them All: An Open Source Smartring Platform for Finger Motion Analytics and Healthcare Applications
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Hao Zhou, Taiting Lu, Yilin Liu and 3 others
+- Published :: Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/JAGLB6UJ/][Reading Room]] · [[zotero://select/library/items/JAGLB6UJ][Zotero]] · [[https://doi.org/10.1145/3576842.3582382][DOI]]
+
+* Highlights
+** p. 31
+#+begin_quote
+monitoring the interbeat intervals (IBI) of the heart as recorded by the PPG sensors
+#+end_quote
+
+** p. 32
+#+begin_quote
+heart rate, blood pressure, and emotional states of users
+#+end_quote
+
+#+begin_quote
+This is an unconstrained problem without well-formed equations because the sensors are not placed on every finger or joint
+#+end_quote
+
+#+begin_quote
+OmniRing extracts finger pose from these videos using Google MediaPipe
+#+end_quote
+
+#+begin_quote
+OmniRing uses simple interpolation and filtering to handle low-quality frames, which was sufficient to provide a stable accuracy for 3D finger motion tracking.
+#+end_quote
+
+** p. 36
+#+begin_quote
+we conduct a basic feasibility of extraction of raw PPG data from OmniRing for heart rate estimation.
+#+end_quote
+
+#+begin_quote
+Therefore by measuring the absorption, metrics like heart rate and blood pressure can be computed
+#+end_quote
+
+** p. 37
+#+begin_quote
+Additional sensors such as ECG and EDA can be incorporated for applications in heart disease detection and stress levels
+#+end_quote
+
+#+begin_quote
+different sensing modalities can be integrated into different rings if the user is willing to wear rings on multiple fingers
+#+end_quote
+
+#+begin_quote
+we will consider the tradeoffs between on-device computing/preprocessing and offloading the sensor data as a part of our future work
+#+end_quote
+
+# ---- end of Reading Room highlights ----

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:        4967ddbd-aec5-401a-9d3e-cc9b51410301
+:ROAM_REFS: @klimekWearablesMeasuringElectrodermal2023 https://doi.org/10.1017/neu.2023.19
+:END:
+#+title: Wearables measuring electrodermal activity to assess perceived stress in care: a scoping review
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Agata Klimek, Ittay Mannheim, Gerard Schouten and 2 others
+- Published :: Acta Neuropsychiatrica · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/XV75RNZI/][Reading Room]] · [[zotero://select/library/items/XV75RNZI][Zotero]] · [[https://doi.org/10.1017/neu.2023.19][DOI]]
+
+* Highlights
+** p. 2
+#+begin_quote
+Physiological parameters that are influenced by the sympathetic nervous system (SNS) are as follows: 1) heart activity, 2) electrodermal activity (EDA), 3) muscle activity, and 4) pupil diameter (Wijsman et al., 2011).
+#+end_quote
+
+#+begin_quote
+Sierra et al.(2011) claim that EDA and heart rate (HR) are the two most important parameters enabling a high potential detection of acute stress (Sierra et al., 2011).
+#+end_quote
+
+# ---- end of Reading Room highlights ----

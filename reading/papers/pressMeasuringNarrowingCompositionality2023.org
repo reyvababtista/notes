@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:        4a8c4089-de7c-4c19-b17a-c6ec7340c3e0
+:ROAM_REFS: @pressMeasuringNarrowingCompositionality2023 http://arxiv.org/abs/2210.03350
+:END:
+#+title: Measuring and Narrowing the Compositionality Gap in Language Models
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Ofir Press, Muru Zhang, Sewon Min and 3 others
+- Published :: arXiv · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/2KAAD9SM/][Reading Room]] · [[zotero://select/library/items/2KAAD9SM][Zotero]] · [[http://arxiv.org/abs/2210.03350][original]]
+
+* Highlights
+** p. 1
+#+begin_quote
+investigate the ability of language models to perform compositional reasoning tasks where the overall solution depends on correctly composing the answers to sub-problems
+#+end_quote
+
+#+begin_quote
+while more powerful models memorize and recall more factual knowledge, they show no corresponding improvement in their ability to perform this kind of compositional reasoning.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

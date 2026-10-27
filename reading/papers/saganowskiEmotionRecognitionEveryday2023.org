@@ -1,0 +1,98 @@
+:PROPERTIES:
+:ID:        e63451c8-d723-4430-a443-c671628b96e6
+:ROAM_REFS: @saganowskiEmotionRecognitionEveryday2023 https://doi.org/10.1109/taffc.2022.3176135
+:END:
+#+title: Emotion Recognition for Everyday Life Using Physiological Signals From Wearables: A Systematic Literature Review
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Stanisław Saganowski, Bartosz Perz, Adam G. Polak, Przemysław Kazienko
+- Published :: IEEE Transactions on Affective Computing · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/UEG5X5WX/][Reading Room]] · [[zotero://select/library/items/UEG5X5WX][Zotero]] · [[https://doi.org/10.1109/taffc.2022.3176135][DOI]]
+
+* Highlights
+** p. 1876
+#+begin_quote
+Overall, affect is seen as a neurophysiological state that is consciously accessible but not directed at any specific entity. Mood is a lasting and not very intense sensation. Finally, a short, intense and directed feeling is described as emotion
+#+end_quote
+
+** p. 1877
+#+begin_quote
+Their numerical analysis of the literature confirms that physiology is the most hot topic in emotion recognition.
+#+end_quote
+
+#+begin_quote
+Schmidt et al. [4] respected the surveyed studies’ environment and concluded that emotion recognition outside the lab is much more difficult.
+#+end_quote
+
+#+begin_quote
+which can be seen as a dynamic pattern recognition problem commonly solved by means of supervised machine learning.
+#+end_quote
+
+#+begin_quote
+Schlosberg claimed in 1954 that electrical skin conductance is a good measure of the extent of emotional arousal
+#+end_quote
+
+#+begin_quote
+In particular, they found some associations between six primary emotions and heart rate, finger temperature, and skin conductance.
+#+end_quote
+
+#+begin_quote
+To develop effective methods for emotion recognition, we need to accumulate appropriate learning samples, later used to train reasoning models.
+#+end_quote
+
+#+begin_quote
+objective but may be contaminated by the individual’s body condition and functioning (impacted by drugs or illnesses);
+#+end_quote
+
+** p. 1878
+#+begin_quote
+Can wearables be used to recognize emotions in everyday life?
+#+end_quote
+
+#+begin_quote
+Behavior-based methods like facial expressions or speech are not considered in this SLR.
+#+end_quote
+
+** p. 1879
+#+begin_quote
+EEG signals
+#+end_quote
+
+#+begin_quote
+as any movement can cause artifacts in recorded brainwaves due to: (1) change of the position of electrodes, (2) activation of other brain areas, (3) electrical activity of muscles
+#+end_quote
+
+#+begin_quote
+it is easier to find stimuli eliciting two different emotions - happy versus sad, than to find stimuli evoking eight different emotions. In the case of the latter, several emotions are likely to co-occur for one stimulus.
+#+end_quote
+
+** p. 1880
+#+begin_quote
+labeling
+#+end_quote
+
+#+begin_quote
+stimuli
+#+end_quote
+
+** p. 1881
+#+begin_quote
+Discrete
+#+end_quote
+
+#+begin_quote
+Dimensional
+#+end_quote
+
+** p. 1882
+#+begin_quote
+watching scenes from movies
+#+end_quote
+
+** p. 1885
+#+begin_quote
+Amplitude: 0.5-5 mV; Frequency spectrum: 0.05-150 Hz
+#+end_quote
+
+# ---- end of Reading Room highlights ----

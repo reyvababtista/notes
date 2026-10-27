@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:        4c1f3390-f96a-4001-aa63-12bb671b9e59
+:ROAM_REFS: @vassiliadisrollupdrilldownintentional2019 https://doi.org/10.1016/j.is.2019.03.011
+:END:
+#+title: Beyond roll-up’s and drill-down’s: An intentional analytics model to reinvent OLAP
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Panos Vassiliadis, Patrick Marcel, Stefano Rizzi
+- Published :: Information Systems · 2019
+- Read :: [[https://read.rbabtista.dev/papers/my/S9I5A2V6/][Reading Room]] · [[zotero://select/library/items/S9I5A2V6][Zotero]] · [[https://doi.org/10.1016/j.is.2019.03.011][DOI]]
+
+* Highlights
+** p. 69
+#+begin_quote
+the user explores the information space by submitting intentions of information goals, i.e., why she wants to discover relevant information rather than prescriptions of what data she needs, and receives both data and annotations of highly interesting subsets of them as results.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

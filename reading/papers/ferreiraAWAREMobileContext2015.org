@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:        d48b41a9-a4c7-4ca6-9427-a1516dbcebb7
+:ROAM_REFS: @ferreiraAWAREMobileContext2015 https://doi.org/10.3389/fict.2015.00006
+:END:
+#+title: AWARE: Mobile Context Instrumentation Framework
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Denzil Ferreira, Vassilis Kostakos, Anind K. Dey
+- Published :: Frontiers in ICT · 2015
+- Read :: [[https://read.rbabtista.dev/papers/my/VLYEPWW9/][Reading Room]] · [[zotero://select/library/items/VLYEPWW9][Zotero]] · [[https://doi.org/10.3389/fict.2015.00006][DOI]]
+
+* Highlights
+** p. 1
+#+begin_quote
+Mobile phones are sensor-rich but resource-constrained
+#+end_quote
+
+#+begin_quote
+By encapsulating implementation details of sensor data retrieval and exposing the sensed context as higher-level abstractions, AWARE shifts the focus from software development to data analysis, both quantitative and qualitative.
+#+end_quote
+
+# ---- end of Reading Room highlights ----

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:        86502418-c25f-4fe1-ae0b-4588de9518af
+:ROAM_REFS: @nishiyamaIOSCrowdSensing2020 https://doi.org/10.1007/978-3-030-50344-4_17
+:END:
+#+title: IOS Crowd–Sensing Won’t Hurt a Bit!: AWARE Framework and Sustainable Study Guideline for iOS Platform
+#+filetags: :reading:paper:
+
+# ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
+- Authors :: Yuuki Nishiyama, Denzil Ferreira, Yusaku Eigen and 5 others
+- Published :: Distributed, Ambient and Pervasive Interactions · 2020
+- Read :: [[https://read.rbabtista.dev/papers/my/QFD5KC52/][Reading Room]] · [[zotero://select/library/items/QFD5KC52][Zotero]] · [[https://doi.org/10.1007/978-3-030-50344-4_17][DOI]]
+
+* Highlights
+** p. 9
+#+begin_quote
+To collect data continuously, AWARE-iOS maintains a location sensor perpetually activated in the background as an anchor.
+#+end_quote
+
+# ---- end of Reading Room highlights ----
