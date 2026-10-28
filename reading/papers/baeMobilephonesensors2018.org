@@ -8,9 +8,38 @@
 # ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
 - Authors :: Sangwon Bae, Tammy Chung, Denzil Ferreira and 2 others
 - Published :: Addictive Behaviors · 2018
-- Read :: [[https://read.rbabtista.dev/papers/g5555152/47SXH3K7/][Reading Room]] · [[zotero://select/groups/5555152/items/47SXH3K7][Zotero]] · [[https://doi.org/10.1016/j.addbeh.2017.11.039][DOI]]
+- Read :: [[https://read.rbabtista.dev/papers/my/ELY8VMH6/][Reading Room]] · [[zotero://select/library/items/ELY8VMH6][Zotero]] · [[https://doi.org/10.1016/j.addbeh.2017.11.039][DOI]]
 
 * Highlights
-None yet.
+** p. 42
+#+begin_quote
+Objective: To evaluate whether phone sensor data and machine learning models are useful to detect alcohol use events, and to discuss implications of these results for just-in-time mobile interventions.
+#+end_quote
+
+#+begin_quote
+The most informative sensor features were related to time (i.e., day of week, time of day), movement (e.g., change in activities), device usage (e.g., screen duration), and communication (e.g., call duration, typing speed).
+#+end_quote
+
+** p. 43
+#+begin_quote
+Therefore, a digital intervention aimed at reducing binge drinking should deliver support “in the moment”, that is, in the context of a drinking episode to enhance motivation for setting and keeping drinking limits, and to reduce the likelihood of negative alcohol-related consequences (i.e., reinforce explicit intentions).
+#+end_quote
+
+#+begin_quote
+a computer science-based “context aware” theoretical framework
+#+end_quote
+
+#+begin_quote
+Phone sensor data has been shown to be useful in inferring other states such as mood
+#+end_quote
+
+#+begin_quote
+how sensor features differ between periods of high-risk (e.g., binge) drinking, low-risk drinking, and non-drinking
+#+end_quote
+
+** p. 47
+#+begin_quote
+Although these results need to be replicated in a larger sample,
+#+end_quote
 
 # ---- end of Reading Room highlights ----

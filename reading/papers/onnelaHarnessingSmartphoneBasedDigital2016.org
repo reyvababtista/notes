@@ -6,11 +6,18 @@
 #+filetags: :reading:paper:
 
 # ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
-- Authors :: Jukka-Pekka Onnela, Scott L. Rauch
+- Authors :: Jukka-Pekka Onnela, Scott L Rauch
 - Published :: Neuropsychopharmacology · 2016
-- Read :: [[https://read.rbabtista.dev/papers/g5555152/8JFNSKQ2/][Reading Room]] · [[zotero://select/groups/5555152/items/8JFNSKQ2][Zotero]] · [[https://doi.org/10.1038/npp.2016.7][DOI]]
+- Read :: [[https://read.rbabtista.dev/papers/my/VPQ5AUGC/][Reading Room]] · [[zotero://select/library/items/VPQ5AUGC][Zotero]] · [[https://doi.org/10.1038/npp.2016.7][DOI]]
 
 * Highlights
-None yet.
+** p. 1691
+#+begin_quote
+Given that these digital fingerprints reflect the lived experiences of people in their natural environments, with granular temporal resolution, it might be possible to leverage them to develop precise and temporally dynamic disease phenotypes and markers to diagnose and treat psychiatric and other illnesses.
+#+end_quote
+
+#+begin_quote
+We have recently defined digital phenotyping as the 'moment-by-moment quantification of the individual-level human phenotype in situ using data from personal digital devices' (Torous et al, 2015)
+#+end_quote
 
 # ---- end of Reading Room highlights ----

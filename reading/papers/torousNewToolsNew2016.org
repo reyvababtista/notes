@@ -6,11 +6,185 @@
 #+filetags: :reading:paper:
 
 # ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
-- Authors :: John Torous, Mathew V. Kiang, Jeanette Lorme, Jukka-Pekka Onnela
+- Authors :: John Torous, Mathew V Kiang, Jeanette Lorme, Jukka-Pekka Onnela
 - Published :: JMIR Mental Health · 2016
-- Read :: [[https://read.rbabtista.dev/papers/g5555152/PVHFIK2D/][Reading Room]] · [[zotero://select/groups/5555152/items/PVHFIK2D][Zotero]] · [[https://doi.org/10.2196/mental.5165][DOI]]
+- Read :: [[https://read.rbabtista.dev/papers/my/B75J8K6X/][Reading Room]] · [[zotero://select/library/items/B75J8K6X][Zotero]] · [[https://doi.org/10.2196/mental.5165][DOI]]
 
 * Highlights
-None yet.
+** p. 1
+#+begin_quote
+Mobile phone technology combined with data science has the potential to offer medicine a wealth of additional information on disease phenotypes, but the large majority of existing smartphone apps are not intended for use as biomedical research platforms and, as such, do not generate research-quality data.
+#+end_quote
+
+#+begin_quote
+Our ultimate goal is to develop statistical, mathematical, and computational methodology to enable us and others to extract biomedical and clinical insights from smartphone data.
+#+end_quote
+
+** p. 2
+#+begin_quote
+The Beiwe platform is intended for biomedical research use, and it includes a study portal, smartphone app, database, and data analysis and modeling tools.
+#+end_quote
+
+#+begin_quote
+We alsointroduce the term “digital phenotyping” to refer to the “moment-by-moment quantification of the individual-level human phenotype in-situ using data from smartphones and other personal digital devices.”
+#+end_quote
+
+#+begin_quote
+Most offer only proprietary summaries of the data.
+#+end_quote
+
+#+begin_quote
+Thousands of mental health apps have become available to consumers in the past few years, and they have usually been positioned within the quantified-self or mHealth movements. These apps have various functionalities, but very few of them are intended for research use.
+#+end_quote
+
+** p. 3
+#+begin_quote
+Like genetic research tools that sequence each nucleotide in a gene, chromosome, or an entire genome, smartphone apps intended for research use need to record and store all relevant data.
+#+end_quote
+
+#+begin_quote
+It is related to the experience sampling method (ESM) [13]. Both EMA and ESM rely on self-reported accounts of behavior, and both have traditionally required the use of specialized tools from notebooks to electronic devices for the duration of the study.
+#+end_quote
+
+#+begin_quote
+While laudable in their inventiveness, traditional EMA/ESM approaches do not lend themselves to long-term follow-up due to the burden to the patient of carrying an additional device that may not have any direct functionality.
+#+end_quote
+
+#+begin_quote
+Given these developments, how is smartphone-based digital phenotyping distinct from EMA/ESM? The short answer is that the purpose of digital phenotyping is not to implement surveys (although surveys can be incorporated into it) but to collect and analyze large quantities of various types of social and behavioral data that capture the subjects’ lived experiences and their interactions with people and places.
+#+end_quote
+
+#+begin_quote
+Among others, digital phenotyping encompasses the collection of spatial trajectories (via global positioning system [GPS]), physical mobility patterns (via accelerometer), and audio samples (via microphone).
+#+end_quote
+
+#+begin_quote
+this allows the investigators to set up any number of surveys, specify the content of the app, specify which sensors are used for data collection, and how they are sampled.
+#+end_quote
+
+#+begin_quote
+Collected data are immediately encrypted and buffered on the device until a Wi-Fi connection becomes available, at which point the data are uploaded to a database on the study server.
+#+end_quote
+
+#+begin_quote
+As a consequence, each study has its own version of the app with its own unique features.
+#+end_quote
+
+#+begin_quote
+The only identifier linking subjects to their data in the platform is the participant ID.
+#+end_quote
+
+#+begin_quote
+Beiwe uses a store-and-forward architecture for managing data, meaning that data are buffered on the device until Wi-Fi becomes available, at which point the data are uploaded to the server database and expunged from the device
+#+end_quote
+
+#+begin_quote
+Direct identifiers in the collected data are hashed, and data are always encrypted
+#+end_quote
+
+** p. 4
+#+begin_quote
+Given that human behavior is highly context sensitive
+#+end_quote
+
+#+begin_quote
+Previous attempts to have patients conduct EMA using pencil-and-paper methods have notedhigh rates of backfilling and unreliable data [17]
+#+end_quote
+
+#+begin_quote
+The responses to survey questions can take any of the following forms:
+#+end_quote
+
+#+begin_quote
+The research app component of Beiwe functions primarily as a data collection engine, meaning that it attempts to collect the specified data streams using the specified sampling scheme as accurately as possible.
+#+end_quote
+
+#+begin_quote
+Beiwe attempts to construct social and behavioral phenotypes with minimal user interference and is not at present intended for behavioral interventions.
+#+end_quote
+
+#+begin_quote
+Beiwe gives only very minimal feedback to the subject in order to avoid behavior change that could result from this feedback.
+#+end_quote
+
+#+begin_quote
+Reliance on data summaries, especially on proprietary data summaries, is problematic for two reasons related to data analysis and replicability of research.
+#+end_quote
+
+#+begin_quote
+smartphone data are high dimensional, longitudinal, exhibit interstream and temporal correlations, and are typically sampled at adaptive rates depending on the state of the phone (active vs sleep)
+#+end_quote
+
+#+begin_quote
+Proprietary data summaries rely on undisclosed assumptions, and they are fixed before either the scientific questions or the statistical approach have been formulated.
+#+end_quote
+
+** p. 5
+#+begin_quote
+For these reasons, Beiwe was designed on the premise that identifying data, such as phone numbers, should be protected through hashing and that, in addition, all data should be encrypted at all times.
+#+end_quote
+
+#+begin_quote
+the platform provides the smartphone with the public half of a 2048-bitRSA (Rivest-Shamir-Adleman) encryption key.
+#+end_quote
+
+#+begin_quote
+which can be used to quantify movement and mobility patterns
+#+end_quote
+
+#+begin_quote
+Recent studies have collected GPS data from patients with alcohol use disorder to better support patients [21], and others
+#+end_quote
+
+** p. 6
+#+begin_quote
+have underscored the correlation of GPS data with depressive symptoms [6]
+#+end_quote
+
+** p. 11
+#+begin_quote
+While at present there is very limited research on big data methods specifically for psychiatric data, there are many promising leads and existing methods and tools that can be applied to such data today [35]
+#+end_quote
+
+#+begin_quote
+the cumbersome nature of paper-and-pencil EMA, as well as concern for inaccuracy through backfilling [51], has limited its application
+#+end_quote
+
+#+begin_quote
+At present, there is a considerable lack of data regarding the clinical utility of smartphone-based passively collected data streams, like the ones that Beiwe can capture, and their correlations with traditional clinical metrics.
+#+end_quote
+
+** p. 12
+#+begin_quote
+we will enroll 20 patients with schizophrenia with inclusion criteria being that they are in current treatment for schizophrenia at the study hospital and own specifically, a smartphone. Age, sex, gender, medication status, or comorbidities will not be exclusion factors.
+#+end_quote
+
+#+begin_quote
+Eligible patients will first be given an in-person assessment consisting of the following validated psychiatric scales: Mini-International Neuropsychiatric Interview (MINI) [55], Patient Health Questionnaire 8 (PHQ-8) [56], General Anxiety Disorder Questionnaire 7 (GAD-7) [57], Pittsburgh Sleep Quality Index (PSQI) [58], and the Warning Signals Scale (WSS), which assess for risk of relapse in schizophrenia [59]
+#+end_quote
+
+#+begin_quote
+use the Beiwe app. Then they will be asked to use it for the next 30 days.
+#+end_quote
+
+#+begin_quote
+The app will be programmed to generate the following surveys: daily WSS and biweekly PHQ-8, PSQI, and GAD-7.
+#+end_quote
+
+#+begin_quote
+The app will also prompt subjects for a daily audio sample.
+#+end_quote
+
+#+begin_quote
+Passive data collection will include GPS, accelerometer, voice call logs, text message logs, and screen event data.
+#+end_quote
+
+#+begin_quote
+After 30 days, subjects will be invited back to the clinic for another round of in-person assessment scales identical to those presented at the beginning of the study.
+#+end_quote
+
+#+begin_quote
+This methodology of collecting patient self-reported symptoms in the form of smartphone surveys complemented with behavioral data from smartphone sensors, which includes physiological data related to sleep patterns and voice features, matches the NIMH’s Research Domain Criteria (RDoc) model, which encourages the simultaneous examination of multiple levels of the system.
+#+end_quote
 
 # ---- end of Reading Room highlights ----

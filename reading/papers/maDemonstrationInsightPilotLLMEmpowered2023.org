@@ -7,10 +7,47 @@
 
 # ---- Reading Room: the lines from here to the end marker are rewritten when highlights change; write your own notes outside them ----
 - Authors :: Pingchuan Ma, Rui Ding, Shuai Wang and 2 others
-- Published :: arXiv · 2023
-- Read :: [[https://read.rbabtista.dev/papers/g5555152/BKQZ7HQH/][Reading Room]] · [[zotero://select/groups/5555152/items/BKQZ7HQH][Zotero]] · [[https://doi.org/10.48550/arxiv.2304.00477][DOI]]
+- Published :: [object Object] · 2023
+- Read :: [[https://read.rbabtista.dev/papers/my/YZWPY3XJ/][Reading Room]] · [[zotero://select/library/items/YZWPY3XJ][Zotero]] · [[https://doi.org/10.48550/arxiv.2304.00477][DOI]]
 
 * Highlights
-None yet.
+** p. 1
+#+begin_quote
+these systems leverage a heuristic score function to identify the “best” data exploration sequence (a series of data analysis operations).
+#+end_quote
+
+#+begin_quote
+they exhibit key limitations.
+#+end_quote
+
+#+begin_quote
+ser Intent Ignorance
+#+end_quote
+
+#+begin_quote
+Dataset Characteristic Ignorance
+#+end_quote
+
+** p. 2
+#+begin_quote
+Hallucination
+#+end_quote
+
+#+begin_quote
+Overwhelming Context Window
+#+end_quote
+
+#+begin_quote
+show me the interesting trend in mathematics scores for students
+#+end_quote
+
+#+begin_quote
+with LLM, text-to-SQL can now be augmented to support non-SQL enquiries such as entity extraction
+#+end_quote
+
+** p. 4
+#+begin_quote
+show me any interesting trend in mathematics scores for students
+#+end_quote
 
 # ---- end of Reading Room highlights ----
